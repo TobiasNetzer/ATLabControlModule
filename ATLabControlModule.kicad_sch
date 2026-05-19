@@ -4,6 +4,13 @@
 	(generator_version "10.0")
 	(uuid "717355f3-544c-4f0f-b3e1-95fade0b1e2b")
 	(paper "A4")
+	(title_block
+		(title "ATLab Control Module")
+		(date "2026-05-19")
+		(rev "A")
+		(company "Tobias Netzer")
+		(comment 4 "- ATLab Control Module -")
+	)
 	(lib_symbols
 		(symbol "ATLabControlModule:C_0402_(1005_Metric)"
 			(pin_numbers
@@ -2104,6 +2111,220 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ATLabControlModule:SN74LVC1G17DBVRG4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1G17DBVRG4"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ATLabControlModule:SOT-23-5"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1653155637088&ref_url=https%253A%252F%252Feu.mouser.com%252F"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Schmitt-Trigger Buffer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" " Single Schmitt-Trigger Buffer"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN74LVC1G17DBVRG4_0_1"
+				(polyline
+					(pts
+						(xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0) (xy -2.54 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy -1.524 0.508) (xy -1.016 0.508) (xy -1.016 -0.508) (xy -2.032 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.508) (xy -0.508 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC1G17DBVRG4_1_1"
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ATLabControlModule:STM32G0B1KEUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2236,7 +2457,7 @@
 			)
 			(symbol "STM32G0B1KEUx_1_1"
 				(pin bidirectional line
-					(at 25.4 26.67 180)
+					(at 25.4 13.97 180)
 					(length 2.54)
 					(name "PB9"
 						(effects
@@ -2264,7 +2485,7 @@
 					(alternate "USART6_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 54.61 180)
+					(at 25.4 41.91 180)
 					(length 2.54)
 					(name "PC14"
 						(effects
@@ -2285,7 +2506,7 @@
 					(alternate "TIM1_BK2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 52.07 180)
+					(at 25.4 39.37 180)
 					(length 2.54)
 					(name "PC15"
 						(effects
@@ -2365,7 +2586,7 @@
 					(alternate "RCC_MCO" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 24.13 180)
+					(at 25.4 52.07 180)
 					(length 2.54)
 					(name "PA0"
 						(effects
@@ -2396,7 +2617,7 @@
 					(alternate "USART4_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 21.59 180)
+					(at 25.4 49.53 180)
 					(length 2.54)
 					(name "PA1"
 						(effects
@@ -2425,7 +2646,7 @@
 					(alternate "USART4_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 19.05 180)
+					(at 25.4 6.35 180)
 					(length 2.54)
 					(name "PA2"
 						(effects
@@ -2456,7 +2677,7 @@
 					(alternate "USART2_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 16.51 180)
+					(at 25.4 3.81 180)
 					(length 2.54)
 					(name "PA3"
 						(effects
@@ -2482,7 +2703,7 @@
 					(alternate "USART2_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 13.97 180)
+					(at 25.4 1.27 180)
 					(length 2.54)
 					(name "PA4"
 						(effects
@@ -2515,7 +2736,7 @@
 					(alternate "USB_NOE" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 11.43 180)
+					(at 25.4 -1.27 180)
 					(length 2.54)
 					(name "PA5"
 						(effects
@@ -2545,7 +2766,7 @@
 					(alternate "USART6_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 8.89 180)
+					(at 25.4 -3.81 180)
 					(length 2.54)
 					(name "PA6"
 						(effects
@@ -2577,7 +2798,7 @@
 					(alternate "USART6_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 6.35 180)
+					(at 25.4 -6.35 180)
 					(length 2.54)
 					(name "PA7"
 						(effects
@@ -2610,7 +2831,7 @@
 					(alternate "USART6_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 49.53 180)
+					(at 25.4 36.83 180)
 					(length 2.54)
 					(name "PB0"
 						(effects
@@ -2642,7 +2863,7 @@
 					(alternate "USART5_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 46.99 180)
+					(at 25.4 34.29 180)
 					(length 2.54)
 					(name "PB1"
 						(effects
@@ -2676,7 +2897,7 @@
 					(alternate "USART5_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 44.45 180)
+					(at 25.4 31.75 180)
 					(length 2.54)
 					(name "PB2"
 						(effects
@@ -2702,7 +2923,7 @@
 					(alternate "USART3_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 3.81 180)
+					(at 25.4 57.15 180)
 					(length 2.54)
 					(name "PA8"
 						(effects
@@ -2728,7 +2949,7 @@
 					(alternate "UCPD1_CC1" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 1.27 180)
+					(at 25.4 -11.43 180)
 					(length 2.54)
 					(name "PA9/UCPD1_DBCC1"
 						(effects
@@ -2759,7 +2980,7 @@
 					(alternate "USART1_TX (PA9)" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 57.15 180)
+					(at 25.4 44.45 180)
 					(length 2.54)
 					(name "PC6"
 						(effects
@@ -2782,7 +3003,7 @@
 					(alternate "UCPD1_FRSTX2" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -1.27 180)
+					(at 25.4 -13.97 180)
 					(length 2.54)
 					(name "PA10/UCPD1_DBCC2"
 						(effects
@@ -2936,7 +3157,7 @@
 					(alternate "USART2_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 -3.81 180)
+					(at 25.4 -16.51 180)
 					(length 2.54)
 					(name "PA15"
 						(effects
@@ -2969,7 +3190,7 @@
 					(alternate "USB_NOE" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 41.91 180)
+					(at 25.4 29.21 180)
 					(length 2.54)
 					(name "PB3"
 						(effects
@@ -2999,7 +3220,7 @@
 					(alternate "USART5_TX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 39.37 180)
+					(at 25.4 26.67 180)
 					(length 2.54)
 					(name "PB4"
 						(effects
@@ -3028,7 +3249,7 @@
 					(alternate "USART5_RX" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 36.83 180)
+					(at 25.4 24.13 180)
 					(length 2.54)
 					(name "PB5"
 						(effects
@@ -3059,7 +3280,7 @@
 					(alternate "USART5_RTS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 34.29 180)
+					(at 25.4 21.59 180)
 					(length 2.54)
 					(name "PB6"
 						(effects
@@ -3090,7 +3311,7 @@
 					(alternate "USART5_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 31.75 180)
+					(at 25.4 19.05 180)
 					(length 2.54)
 					(name "PB7"
 						(effects
@@ -3120,7 +3341,7 @@
 					(alternate "USART4_NSS" bidirectional line)
 				)
 				(pin bidirectional line
-					(at 25.4 29.21 180)
+					(at 25.4 16.51 180)
 					(length 2.54)
 					(name "PB8"
 						(effects
@@ -4570,6 +4791,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VBUS"
 			(power global)
 			(pin_numbers
@@ -4710,113 +5046,337 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 69.85 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d67fdf3-ab28-45f1-9d79-cf0bc0c22010")
+	(text "START"
+		(exclude_from_sim no)
+		(at 237.49 118.11 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "31db6298-2df0-4787-ba7a-385a62264ef0")
+	)
+	(text "STOP"
+		(exclude_from_sim no)
+		(at 265.43 118.11 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "493598ae-4377-442f-8d37-f82c55161d00")
+	)
+	(text "SWD-Interface"
+		(exclude_from_sim no)
+		(at 104.14 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "96709a48-7824-4134-ac96-207937dc1242")
+	)
+	(text "LED Status Bar"
+		(exclude_from_sim no)
+		(at 165.1 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e3a65c9e-9325-4666-ad14-c3adda39417f")
 	)
 	(junction
-		(at 85.09 87.63)
+		(at 143.51 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02f699bc-4ce1-4e2f-989e-93abe5bcddbc")
+	)
+	(junction
+		(at 224.79 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0991b341-5f9d-4f14-afea-a98148006f62")
+	)
+	(junction
+		(at 207.01 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b9be91-d575-43bb-8768-2f6a0dbfb2c8")
+	)
+	(junction
+		(at 73.66 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21280dac-2c72-43d2-9bce-3329c81571b4")
 	)
 	(junction
-		(at 85.09 67.31)
+		(at 208.28 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "331ee6cd-6451-4815-8255-d9fac3d330fc")
+	)
+	(junction
+		(at 237.49 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "367d7e76-c541-497a-a958-36a4de9ffa87")
+	)
+	(junction
+		(at 73.66 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "522b1edb-2447-4025-8540-cb2de858b5fe")
 	)
 	(junction
-		(at 85.09 77.47)
+		(at 73.66 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "587b6eb9-33e4-4b7d-9948-2c07a3a13e5f")
 	)
 	(junction
-		(at 27.94 142.24)
+		(at 120.65 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bbedeb0-887f-4b13-995f-fcff703221f7")
+	)
+	(junction
+		(at 121.92 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e787d1c-c46f-44c7-8302-fcf43974295c")
+	)
+	(junction
+		(at 24.13 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6228c766-747e-49d4-a7d3-813395bf9df2")
 	)
 	(junction
-		(at 27.94 132.08)
+		(at 265.43 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78108324-9bdb-4dec-b6c1-da457e21b241")
+	)
+	(junction
+		(at 24.13 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bf43ebd-feda-4f95-92cc-b8acdbe6e529")
 	)
 	(junction
-		(at 52.07 106.68)
+		(at 224.79 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85a9fa49-2b07-4213-a09e-b146d145a245")
+	)
+	(junction
+		(at 48.26 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88f72d62-b6ed-4292-8c9a-b9e2fbb67c12")
 	)
 	(junction
-		(at 69.85 67.31)
+		(at 58.42 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fda705d-6c18-46d9-a086-4368bbb5f9c8")
 	)
 	(junction
-		(at 102.87 87.63)
+		(at 91.44 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4b98a47-f8e4-49b0-8a41-acfcb3d79c53")
 	)
 	(junction
-		(at 60.96 99.06)
+		(at 57.15 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ace1fcc8-b566-4ef0-b92d-06851b21c0b5")
 	)
 	(junction
-		(at 120.65 67.31)
+		(at 186.69 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b29fe76c-3ada-4160-ba5f-1c9f22ebc5c4")
+	)
+	(junction
+		(at 165.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c3df0ca6-a6d0-42df-8361-06a89598f541")
+	)
+	(junction
+		(at 109.22 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca9b697c-6480-432f-b0eb-71a9baf93b52")
 	)
 	(junction
-		(at 52.07 111.76)
+		(at 109.22 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce6ee616-7376-40e7-88be-a5bc48850463")
+	)
+	(junction
+		(at 120.65 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8acf22-1ae1-4467-91df-84f8f6453ae1")
+	)
+	(junction
+		(at 48.26 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d01dae14-3b46-49c7-87d8-9db4486374b6")
 	)
 	(junction
-		(at 27.94 143.51)
+		(at 24.13 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8a10e12-90a1-4c6a-b180-321f2e7a5848")
 	)
-	(no_connect
-		(at 279.4 68.58)
-		(uuid "356ef6e3-21b7-4a20-910c-f4f227a7eaad")
+	(junction
+		(at 132.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f116455a-d82e-49df-8ab9-a9a5ab1d4309")
 	)
 	(no_connect
-		(at 50.8 120.65)
+		(at 190.5 95.25)
+		(uuid "096a6d03-aa63-4fa5-a713-42eeeb274347")
+	)
+	(no_connect
+		(at 190.5 100.33)
+		(uuid "0efb84b1-04e0-4dae-bf9e-74aad874de1d")
+	)
+	(no_connect
+		(at 190.5 105.41)
+		(uuid "147da9b2-3627-4d35-9bb2-688a2c7d05ae")
+	)
+	(no_connect
+		(at 190.5 130.81)
+		(uuid "1737fc9e-752c-45e4-948f-67869500d3f0")
+	)
+	(no_connect
+		(at 190.5 107.95)
+		(uuid "17f9aaa5-f3d3-4eb1-a2e3-1d0d2692468d")
+	)
+	(no_connect
+		(at 190.5 97.79)
+		(uuid "2a06b9d7-1834-472c-9fe0-20946d3dd35d")
+	)
+	(no_connect
+		(at 190.5 135.89)
+		(uuid "2a151831-4ce7-4f24-be9a-9f5db0879e03")
+	)
+	(no_connect
+		(at 190.5 113.03)
+		(uuid "3158ebb9-57aa-44f7-a3a3-c43313f9c4a8")
+	)
+	(no_connect
+		(at 190.5 140.97)
+		(uuid "430b0a56-99cf-4308-bded-8a1b4bb30117")
+	)
+	(no_connect
+		(at 190.5 123.19)
+		(uuid "43ee0e2d-2f75-419e-90bd-52ef0fadf2e6")
+	)
+	(no_connect
+		(at 190.5 110.49)
+		(uuid "592eaebe-0a0b-47b4-9af4-2a42fddfbac6")
+	)
+	(no_connect
+		(at 190.5 115.57)
+		(uuid "6bb3dd91-63d7-4d13-b039-de0816ca0f63")
+	)
+	(no_connect
+		(at 190.5 102.87)
+		(uuid "875c5b0b-3da3-4b59-9e52-451bd3d7d3fa")
+	)
+	(no_connect
+		(at 190.5 92.71)
+		(uuid "93a22a1f-9712-4259-bdf8-bde9f1117c4a")
+	)
+	(no_connect
+		(at 190.5 120.65)
+		(uuid "9b60c5d3-40e6-4fe0-bb04-4ebc98ef07a2")
+	)
+	(no_connect
+		(at 46.99 133.35)
 		(uuid "a25cad55-4688-45ec-a52c-2df96f9ad6b5")
 	)
 	(no_connect
-		(at 50.8 123.19)
+		(at 190.5 148.59)
+		(uuid "b744227f-6c51-4b13-81f8-67e49f1503be")
+	)
+	(no_connect
+		(at 190.5 138.43)
+		(uuid "bdd523b1-200a-4225-be92-35fdb72876aa")
+	)
+	(no_connect
+		(at 190.5 151.13)
+		(uuid "be4a0798-4d6d-464d-9539-8ce272f38f59")
+	)
+	(no_connect
+		(at 190.5 153.67)
+		(uuid "c4c03f50-6a3a-46cb-927b-a3ce7ffdae40")
+	)
+	(no_connect
+		(at 215.9 43.18)
+		(uuid "dacaca0a-c8f0-4bb0-b1f4-983a87d42353")
+	)
+	(no_connect
+		(at 190.5 133.35)
+		(uuid "e4d5abb7-80c2-4cbb-a936-29fbebdde1a9")
+	)
+	(no_connect
+		(at 190.5 118.11)
+		(uuid "e91de48f-788d-43cb-b183-9afb471b2ef7")
+	)
+	(no_connect
+		(at 190.5 143.51)
+		(uuid "eff2fbbe-597c-405f-8182-c8b3773ed6b5")
+	)
+	(no_connect
+		(at 46.99 135.89)
 		(uuid "f4247afc-f31b-43d7-b99e-595e98240173")
 	)
 	(no_connect
-		(at 114.3 133.35)
+		(at 125.73 146.05)
 		(uuid "fc047d98-85a4-4e90-9593-93a9fb4ba539")
 	)
 	(wire
 		(pts
-			(xy 187.96 68.58) (xy 193.04 68.58)
+			(xy 190.5 85.09) (xy 198.12 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00b8e986-2896-4c05-b2f8-251b568592c7")
+		(uuid "026d0d15-8725-44c2-8387-601358401aef")
 	)
 	(wire
 		(pts
-			(xy 120.65 66.04) (xy 120.65 67.31)
+			(xy 208.28 33.02) (xy 208.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d1c897-73a8-4678-9e3a-557a1b957dd2")
+	)
+	(wire
+		(pts
+			(xy 120.65 78.74) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4826,17 +5386,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 123.19) (xy 128.27 123.19)
+			(xy 217.17 72.39) (xy 215.9 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b654907-53d5-467f-be68-7358717c0735")
+		(uuid "0b14091a-30f2-4676-acd5-b809dbbaac3c")
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 30.48 142.24)
+			(xy 24.13 154.94) (xy 26.67 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4846,7 +5406,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 25.4 142.24)
+			(xy 132.08 100.33) (xy 120.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d80fe5b-6693-49fb-a268-7c1e58e2634d")
+	)
+	(wire
+		(pts
+			(xy 24.13 154.94) (xy 21.59 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4856,7 +5426,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 27.94 143.51)
+			(xy 196.85 33.02) (xy 195.58 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101fb293-8708-4165-941f-7e67400f722b")
+	)
+	(wire
+		(pts
+			(xy 24.13 154.94) (xy 24.13 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4866,27 +5446,27 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 124.46) (xy 231.14 125.73)
+			(xy 265.43 69.85) (xy 266.7 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14854efa-a457-4187-ae34-4f24d8795bfd")
+		(uuid "15a02fd4-810e-4a17-a54d-8ec0b0cdf0dd")
 	)
 	(wire
 		(pts
-			(xy 254 59.69) (xy 254 60.96)
+			(xy 196.85 34.29) (xy 196.85 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16d9fb29-2a26-451b-8098-bcd1a66848fd")
+		(uuid "1821ce10-861c-4a92-b5d2-5dca2e96bc6f")
 	)
 	(wire
 		(pts
-			(xy 85.09 76.2) (xy 85.09 77.47)
+			(xy 73.66 88.9) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4896,7 +5476,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 104.14) (xy 90.17 104.14)
+			(xy 96.52 116.84) (xy 86.36 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +5486,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 105.41) (xy 52.07 106.68)
+			(xy 218.44 34.29) (xy 218.44 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20845a11-f11e-48e3-9b76-c9cc96def251")
+	)
+	(wire
+		(pts
+			(xy 48.26 118.11) (xy 48.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4916,7 +5506,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 105.41) (xy 52.07 105.41)
+			(xy 73.66 100.33) (xy 73.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22940583-d5b0-4637-b007-5c4940512a24")
+	)
+	(wire
+		(pts
+			(xy 46.99 118.11) (xy 48.26 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4926,27 +5526,17 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 59.69) (xy 218.44 60.96)
+			(xy 198.12 96.52) (xy 255.27 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2338a096-2f6f-4527-a6b4-614406b1871f")
+		(uuid "24e41341-0b4e-4bfb-805c-f9ae456879f2")
 	)
 	(wire
 		(pts
-			(xy 271.78 76.2) (xy 271.78 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2645f701-5944-42da-904f-fa83f04f82db")
-	)
-	(wire
-		(pts
-			(xy 120.65 130.81) (xy 114.3 130.81)
+			(xy 132.08 143.51) (xy 125.73 143.51)
 		)
 		(stroke
 			(width 0)
@@ -4956,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 86.36) (xy 102.87 87.63)
+			(xy 91.44 99.06) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +5556,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 77.47) (xy 85.09 78.74)
+			(xy 73.66 90.17) (xy 73.66 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4976,17 +5566,67 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 93.98) (xy 187.96 93.98)
+			(xy 279.4 59.69) (xy 279.4 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a22010b-3101-4a0d-a109-bcb332d860a3")
+		(uuid "281fcf1f-1074-4358-b1f2-f3f2835a549b")
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 92.71 67.31)
+			(xy 255.27 96.52) (xy 255.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "289395cb-b890-4032-b13b-5280ba896564")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 232.41 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2f2304-f7cd-4a5b-8e27-cf91df02ef67")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 132.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b9e97ea-740a-4a84-92bc-373557183e14")
+	)
+	(wire
+		(pts
+			(xy 111.76 43.18) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf59aeb-978b-4448-939c-fabb13f91adb")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e614fd9-844d-4035-ac39-0ad395756545")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 81.28 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4996,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 107.95) (xy 50.8 107.95)
+			(xy 48.26 120.65) (xy 46.99 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5006,7 +5646,37 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 107.95) (xy 100.33 104.14)
+			(xy 165.1 33.02) (xy 166.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3836a5c9-e7d0-45b3-9c69-e87d070772b4")
+	)
+	(wire
+		(pts
+			(xy 208.28 30.48) (xy 208.28 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a5641a9-5f3e-46c6-afe3-3e665384450e")
+	)
+	(wire
+		(pts
+			(xy 217.17 73.66) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af972d3-54fa-4543-ae33-7f2c25910cfb")
+	)
+	(wire
+		(pts
+			(xy 96.52 120.65) (xy 96.52 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5016,17 +5686,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 198.12 133.35)
+			(xy 129.54 43.18) (xy 135.89 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "404d7644-7c25-4a34-9154-fa6bfab362d3")
+		(uuid "3e8acf58-2a92-4df2-895d-a53f0f4e1b18")
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 69.85 67.31)
+			(xy 58.42 78.74) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5036,7 +5706,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 69.85 67.31)
+			(xy 58.42 86.36) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5046,17 +5716,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 59.69) (xy 236.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d57bd2-2dde-4842-bd65-84de1ab29697")
-	)
-	(wire
-		(pts
-			(xy 62.23 114.3) (xy 62.23 111.76)
+			(xy 58.42 127) (xy 58.42 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +5726,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 140.97) (xy 213.36 142.24)
+			(xy 237.49 87.63) (xy 237.49 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5076,7 +5736,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 106.68) (xy 52.07 107.95)
+			(xy 120.65 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4608ec56-e0cd-48ea-a471-34fea76a1a06")
+	)
+	(wire
+		(pts
+			(xy 48.26 119.38) (xy 48.26 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5086,7 +5756,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 60.96 99.06)
+			(xy 143.51 33.02) (xy 144.78 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48967be0-e22b-4881-94b1-4eb579662a8c")
+	)
+	(wire
+		(pts
+			(xy 121.92 30.48) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ee6f9a-1559-4e7d-b67e-0cd3377e0674")
+	)
+	(wire
+		(pts
+			(xy 57.15 110.49) (xy 57.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +5786,37 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 92.71) (xy 52.07 92.71)
+			(xy 194.31 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d3e93eb-e2e0-4a76-b32c-77ccbc68e301")
+	)
+	(wire
+		(pts
+			(xy 224.79 59.69) (xy 224.79 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da1d9ab-8915-4209-a012-26f8d633b697")
+	)
+	(wire
+		(pts
+			(xy 120.65 80.01) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e11be7c-5d00-4f06-a2e3-15aad4c0974f")
+	)
+	(wire
+		(pts
+			(xy 48.26 105.41) (xy 46.99 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5106,7 +5826,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.03) (xy 50.8 113.03)
+			(xy 175.26 33.02) (xy 173.99 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb3c73d-354d-4d0a-b821-b3737794c464")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f3b0f7c-c4e0-4fc3-8cf7-fa878ed37190")
+	)
+	(wire
+		(pts
+			(xy 48.26 125.73) (xy 46.99 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +5856,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 110.49) (xy 52.07 111.76)
+			(xy 48.26 123.19) (xy 48.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +5866,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 133.35) (xy 223.52 133.35)
+			(xy 245.11 80.01) (xy 257.81 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5136,17 +5876,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 68.58) (xy 228.6 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55597e73-83c2-4f6e-865d-948bf6fa93ff")
-	)
-	(wire
-		(pts
-			(xy 35.56 130.81) (xy 35.56 143.51)
+			(xy 31.75 143.51) (xy 31.75 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5156,7 +5886,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 100.33) (xy 52.07 100.33)
+			(xy 247.65 71.12) (xy 247.65 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "565636b3-b51d-4f63-94f0-e6633c6f1ae2")
+	)
+	(wire
+		(pts
+			(xy 46.99 113.03) (xy 48.26 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5166,7 +5906,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 52.07 67.31)
+			(xy 143.51 50.8) (xy 143.51 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5840e85a-00f0-4801-a2e2-e5963fd3167d")
+	)
+	(wire
+		(pts
+			(xy 214.63 80.01) (xy 224.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584509e1-4c85-49f9-ac70-1bdb9e972767")
+	)
+	(wire
+		(pts
+			(xy 48.26 80.01) (xy 48.26 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +5936,27 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 133.35) (xy 30.48 132.08)
+			(xy 190.5 87.63) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ac9e67-9020-4686-806f-fb6030e0b29d")
+	)
+	(wire
+		(pts
+			(xy 208.28 50.8) (xy 208.28 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f5a420-a369-485a-962e-f035ff08583f")
+	)
+	(wire
+		(pts
+			(xy 26.67 146.05) (xy 26.67 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5186,17 +5966,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 133.35) (xy 246.38 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f00d10e-b1fe-4d53-8836-f75e64437a7b")
-	)
-	(wire
-		(pts
-			(xy 68.58 109.22) (xy 69.85 109.22)
+			(xy 64.77 121.92) (xy 66.04 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5206,7 +5976,27 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 104.14) (xy 62.23 104.14)
+			(xy 132.08 33.02) (xy 130.81 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6065e212-3fb2-4722-980b-66d176991a21")
+	)
+	(wire
+		(pts
+			(xy 73.66 78.74) (xy 73.66 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6169c51a-86fb-48b9-8506-68394665582b")
+	)
+	(wire
+		(pts
+			(xy 66.04 116.84) (xy 58.42 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +6006,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 114.3) (xy 100.33 110.49)
+			(xy 96.52 123.19) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -5226,7 +6016,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 140.97) (xy 30.48 142.24)
+			(xy 26.67 153.67) (xy 26.67 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5236,27 +6026,27 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 140.97) (xy 127 140.97)
+			(xy 275.59 69.85) (xy 274.32 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67175784-a46d-44b7-bbbe-bda88ed4fa4f")
+		(uuid "66f8cf04-e9a9-499d-a7de-6867a619f061")
 	)
 	(wire
 		(pts
-			(xy 179.07 120.65) (xy 198.12 120.65)
+			(xy 237.49 69.85) (xy 238.76 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "673fece8-c30a-4652-9489-9681d1a9c076")
+		(uuid "69b5a710-56a5-465d-b4ec-ef11a45547f6")
 	)
 	(wire
 		(pts
-			(xy 85.09 67.31) (xy 85.09 68.58)
+			(xy 73.66 80.01) (xy 73.66 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5266,7 +6056,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 128.27) (xy 118.11 128.27)
+			(xy 58.42 100.33) (xy 91.44 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71caca12-c771-4ed1-b1b4-550a9ebe8666")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 129.54 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +6076,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 128.27) (xy 118.11 125.73)
+			(xy 129.54 140.97) (xy 129.54 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +6086,27 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 124.46) (xy 213.36 125.73)
+			(xy 151.13 43.18) (xy 157.48 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77148a24-76ae-48ad-94f3-c62a6fa220ba")
+	)
+	(wire
+		(pts
+			(xy 186.69 33.02) (xy 187.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79773148-d7a0-4b74-952f-4359d7b14140")
+	)
+	(wire
+		(pts
+			(xy 237.49 67.31) (xy 237.49 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5296,17 +6116,27 @@
 	)
 	(wire
 		(pts
-			(xy 254 76.2) (xy 254 77.47)
+			(xy 186.69 50.8) (xy 186.69 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab0113d-25a4-4954-93d7-2b7c6d2f7d31")
+		(uuid "7b2b3861-7c1c-4e0e-856b-462bdaeb936c")
 	)
 	(wire
 		(pts
-			(xy 90.17 114.3) (xy 100.33 114.3)
+			(xy 243.84 106.68) (xy 243.84 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c895e8e-d2cb-4045-9706-08f3001d4138")
+	)
+	(wire
+		(pts
+			(xy 86.36 127) (xy 96.52 127)
 		)
 		(stroke
 			(width 0)
@@ -5316,7 +6146,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 140.97) (xy 231.14 142.24)
+			(xy 265.43 87.63) (xy 265.43 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5326,17 +6156,27 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 59.69) (xy 271.78 60.96)
+			(xy 165.1 30.48) (xy 165.1 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8148286d-18c8-4e7e-b692-40bfdf11ee7a")
+		(uuid "80a816f9-6b7b-44f1-8856-a55c2413d398")
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 27.94 144.78)
+			(xy 198.12 85.09) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8159beb7-525e-4f6b-aadf-ae3150d6957b")
+	)
+	(wire
+		(pts
+			(xy 24.13 156.21) (xy 24.13 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5346,17 +6186,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 133.35) (xy 205.74 133.35)
+			(xy 132.08 34.29) (xy 132.08 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8358ab87-8a0f-43d9-901e-c76d6b4d68fc")
+		(uuid "848b7c79-ad15-4d7a-b3c7-e0e9f83091e1")
 	)
 	(wire
 		(pts
-			(xy 69.85 114.3) (xy 62.23 114.3)
+			(xy 111.76 43.18) (xy 114.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e3e491-cb64-42bd-8285-d80c33194941")
+	)
+	(wire
+		(pts
+			(xy 66.04 127) (xy 58.42 127)
 		)
 		(stroke
 			(width 0)
@@ -5366,7 +6216,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 69.85 87.63)
+			(xy 58.42 93.98) (xy 58.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5376,7 +6226,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 102.87 87.63)
+			(xy 109.22 100.33) (xy 91.44 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +6236,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 110.49) (xy 52.07 110.49)
+			(xy 46.99 123.19) (xy 48.26 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +6246,47 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 87.63) (xy 85.09 86.36)
+			(xy 132.08 93.98) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "908f6b01-cbc2-4d00-a40a-a90d66b46474")
+	)
+	(wire
+		(pts
+			(xy 255.27 106.68) (xy 260.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e34f49-6c32-4a89-a29d-ce78173cb69b")
+	)
+	(wire
+		(pts
+			(xy 121.92 33.02) (xy 123.19 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a20fed-d44d-4a47-9e4f-1c1b2cb4da8c")
+	)
+	(wire
+		(pts
+			(xy 153.67 34.29) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9459b196-603e-4071-bc57-5d52a9724f14")
+	)
+	(wire
+		(pts
+			(xy 73.66 100.33) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +6296,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 133.35) (xy 25.4 132.08)
+			(xy 243.84 105.41) (xy 242.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94db2518-7d82-4f61-936d-9ecc7d4d11fc")
+	)
+	(wire
+		(pts
+			(xy 21.59 146.05) (xy 21.59 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5416,17 +6316,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 68.58) (xy 246.38 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a0b630c-a0af-4725-8542-bd5a32f49d93")
-	)
-	(wire
-		(pts
-			(xy 85.09 77.47) (xy 92.71 77.47)
+			(xy 73.66 90.17) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +6326,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 111.76) (xy 52.07 113.03)
+			(xy 275.59 71.12) (xy 275.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b1b8df0-49eb-4807-9bb0-1fa72a4d310e")
+	)
+	(wire
+		(pts
+			(xy 48.26 124.46) (xy 48.26 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +6346,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 116.84) (xy 104.14 118.11)
+			(xy 115.57 129.54) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5456,7 +6356,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 52.07 111.76)
+			(xy 207.01 69.85) (xy 207.01 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d98e6d7-9725-4efd-bcf3-017fbbdb30df")
+	)
+	(wire
+		(pts
+			(xy 125.73 135.89) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9faa0e8c-6c4b-4524-bf2c-1221dda4d8ce")
+	)
+	(wire
+		(pts
+			(xy 58.42 124.46) (xy 48.26 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5466,17 +6386,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 68.58) (xy 210.82 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ff2951-cfd8-43a8-ab34-8ac07cb4b60d")
-	)
-	(wire
-		(pts
-			(xy 104.14 138.43) (xy 104.14 139.7)
+			(xy 115.57 151.13) (xy 115.57 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5486,17 +6396,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 140.97) (xy 127 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4a1b876-4f02-43e9-90c9-d119e56d5178")
-	)
-	(wire
-		(pts
-			(xy 120.65 81.28) (xy 120.65 87.63)
+			(xy 109.22 93.98) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5506,17 +6406,37 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 76.2) (xy 236.22 77.47)
+			(xy 247.65 69.85) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9c5b83a-5a85-4dd8-a86c-ff38a8c06a77")
+		(uuid "a54e4a47-0a18-4207-901e-a3eb88b29937")
 	)
 	(wire
 		(pts
-			(xy 59.69 97.79) (xy 60.96 97.79)
+			(xy 175.26 34.29) (xy 175.26 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b3bc7b-4293-4b32-a458-0a7096b8cd64")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 143.51 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7020c08-35e2-4321-b9c0-2d3505311052")
+	)
+	(wire
+		(pts
+			(xy 55.88 110.49) (xy 57.15 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5526,27 +6446,27 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 93.98) (xy 187.96 68.58)
+			(xy 207.01 85.09) (xy 207.01 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abc5fd57-3466-41f2-b0f9-e62c0c547570")
+		(uuid "ac65c91a-ede6-4c71-928c-c86403678130")
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 85.09 87.63)
+			(xy 120.65 100.33) (xy 109.22 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad98730f-3e16-44ab-b600-4e4c56b2c4aa")
+		(uuid "ad406517-49ed-42a2-813b-5bc89bdec2a2")
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 200.66 77.47)
+			(xy 121.92 50.8) (xy 121.92 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +6476,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 109.22) (xy 91.44 109.22)
+			(xy 86.36 121.92) (xy 87.63 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5566,17 +6486,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 120.65 128.27)
+			(xy 186.69 33.02) (xy 186.69 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b3d75268-49eb-4404-a66b-172d1b30222f")
+		(uuid "b35d5420-6a7d-49a5-ae7c-87fbcdd404bf")
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 60.96 99.06)
+			(xy 57.15 113.03) (xy 57.15 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +6506,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 110.49) (xy 128.27 110.49)
+			(xy 96.52 123.19) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +6516,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 125.73) (xy 128.27 125.73)
+			(xy 224.79 80.01) (xy 229.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5619477-7b06-42b6-b9b2-1c0c772152d4")
+	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 139.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +6536,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 130.81) (xy 27.94 132.08)
+			(xy 24.13 143.51) (xy 24.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +6546,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 128.27 67.31)
+			(xy 139.7 153.67) (xy 138.43 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc04621f-b8ac-4593-9074-a6c41ab3cf13")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 120.65 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +6566,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 106.68) (xy 52.07 106.68)
+			(xy 58.42 119.38) (xy 48.26 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5636,17 +6576,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 85.09 87.63)
+			(xy 120.65 93.98) (xy 120.65 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd820859-5a6e-4b62-88db-af18bd5ab934")
+		(uuid "bec5b590-b448-4cd9-84ed-0ee37cbc43b1")
 	)
 	(wire
 		(pts
-			(xy 59.69 100.33) (xy 60.96 100.33)
+			(xy 55.88 113.03) (xy 57.15 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5656,37 +6596,37 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 68.58) (xy 264.16 68.58)
+			(xy 224.79 73.66) (xy 224.79 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c43e0508-dad1-4b62-9d51-37ffb1077b2a")
+		(uuid "c6696619-35bc-4a6a-807f-9646a3c6d39d")
 	)
 	(wire
 		(pts
-			(xy 246.38 133.35) (xy 246.38 93.98)
+			(xy 132.08 80.01) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c66b99c9-edaa-494c-ba3d-4a2c5534a749")
+		(uuid "c8d43a69-ae6a-4374-b14a-1e2c4f792f9d")
 	)
 	(wire
 		(pts
-			(xy 218.44 76.2) (xy 218.44 77.47)
+			(xy 279.4 80.01) (xy 273.05 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7058ce4-cf5e-4f9d-a75f-3d53cd4085a8")
+		(uuid "c92c3ab4-0034-4b19-90cc-7b0051d37fd8")
 	)
 	(wire
 		(pts
-			(xy 120.65 67.31) (xy 113.03 67.31)
+			(xy 109.22 80.01) (xy 101.6 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5696,7 +6636,17 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 35.56 143.51)
+			(xy 190.5 80.01) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc0a071-42e9-4b66-8d7e-9433e409af23")
+	)
+	(wire
+		(pts
+			(xy 24.13 156.21) (xy 31.75 156.21)
 		)
 		(stroke
 			(width 0)
@@ -5706,7 +6656,47 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 128.27) (xy 120.65 130.81)
+			(xy 172.72 43.18) (xy 179.07 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfced34c-641e-4089-a78a-5dd522d9fe4a")
+	)
+	(wire
+		(pts
+			(xy 143.51 30.48) (xy 143.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d03b0275-9498-4ade-9604-47d0a1c34507")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0e86b33-8cd4-42fd-9b7d-257f67f2cc49")
+	)
+	(wire
+		(pts
+			(xy 237.49 69.85) (xy 237.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1da46c0-3a21-47b8-89a8-e10733ef2f6a")
+	)
+	(wire
+		(pts
+			(xy 132.08 140.97) (xy 132.08 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +6706,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 73.66) (xy 120.65 67.31)
+			(xy 271.78 107.95) (xy 271.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4424c6b-a8e4-4056-a61a-bbe3a88b1a13")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 109.22 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +6726,47 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 132.08) (xy 27.94 132.08)
+			(xy 224.79 59.69) (xy 279.4 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba70ecb-6863-4dd8-9980-ba2a6b0fc848")
+	)
+	(wire
+		(pts
+			(xy 265.43 69.85) (xy 265.43 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaf4f72-c65e-4298-a852-33292c91c955")
+	)
+	(wire
+		(pts
+			(xy 121.92 33.02) (xy 121.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfb74c55-a71f-405f-a0e5-ff014c43422b")
+	)
+	(wire
+		(pts
+			(xy 138.43 153.67) (xy 138.43 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2334bcc-0815-4849-a653-2e957f466073")
+	)
+	(wire
+		(pts
+			(xy 26.67 144.78) (xy 24.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +6776,17 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 142.24) (xy 25.4 140.97)
+			(xy 208.28 33.02) (xy 209.55 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e49e93ac-e6aa-42ab-a291-b34d9eea6465")
+	)
+	(wire
+		(pts
+			(xy 21.59 154.94) (xy 21.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +6796,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 97.79) (xy 52.07 97.79)
+			(xy 46.99 110.49) (xy 48.26 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +6806,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 107.95) (xy 100.33 107.95)
+			(xy 139.7 120.65) (xy 96.52 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5766,7 +6816,27 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 132.08) (xy 27.94 132.08)
+			(xy 218.44 33.02) (xy 217.17 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec02a044-8fc6-4d14-a366-fdbd0524986d")
+	)
+	(wire
+		(pts
+			(xy 265.43 67.31) (xy 265.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7b805c-c66b-4078-87ce-0d893b5649dc")
+	)
+	(wire
+		(pts
+			(xy 21.59 144.78) (xy 24.13 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5776,7 +6846,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 69.85 88.9)
+			(xy 165.1 50.8) (xy 165.1 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0e133b5-8538-410e-a2e6-992fa481dfed")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.33) (xy 91.44 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +6866,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 104.14) (xy 62.23 106.68)
+			(xy 111.76 59.69) (xy 224.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39b3dc3-2c83-4aee-a7af-4c399b00d933")
+	)
+	(wire
+		(pts
+			(xy 58.42 116.84) (xy 58.42 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5796,7 +6886,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 62.23 99.06)
+			(xy 165.1 33.02) (xy 165.1 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f566187b-9a01-4358-ac25-b7716f7b2e7d")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 58.42 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5806,17 +6906,47 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 59.69) (xy 200.66 60.96)
+			(xy 195.58 105.41) (xy 195.58 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9bd0cd6-ea29-4cd8-a858-21929ae77299")
+		(uuid "fa2faf5a-d200-4b3a-b615-4b6b8af3c5d6")
+	)
+	(wire
+		(pts
+			(xy 271.78 106.68) (xy 270.51 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae97237-855f-443e-8d60-b7ba78762ada")
+	)
+	(wire
+		(pts
+			(xy 153.67 33.02) (xy 152.4 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe4bfc6-457d-4445-bc59-beccf942e298")
+	)
+	(wire
+		(pts
+			(xy 186.69 30.48) (xy 186.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc16e9ac-ece0-4860-8a63-b41e8091dea0")
 	)
 	(symbol
 		(lib_id "ATLabControlModule:R_1206_(3216_Metric)")
-		(at 30.48 137.16 0)
+		(at 26.67 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5826,7 +6956,7 @@
 		(dnp no)
 		(uuid "02a2fb31-b35f-4d42-ab13-714ad42979a0")
 		(property "Reference" "R3"
-			(at 31.75 135.89 0)
+			(at 27.94 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5837,7 +6967,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 31.75 138.43 0)
+			(at 27.94 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5848,7 +6978,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:R_1206_(3216_Metric)"
-			(at 45.72 140.97 0)
+			(at 41.91 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5859,7 +6989,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 133.35 0)
+			(at 11.43 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5870,7 +7000,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 137.16 0)
+			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5881,7 +7011,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 30.48 137.16 0)
+			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5892,7 +7022,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 38.1 143.51 0)
+			(at 34.29 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5903,7 +7033,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 30.48 137.16 0)
+			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5914,7 +7044,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 30.48 137.16 0)
+			(at 26.67 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,8 +7070,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:SK6805")
-		(at 254 68.58 0)
+		(lib_id "power:GND")
+		(at 196.85 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5949,53 +7079,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "13ed854b-7ff1-49f3-863f-578c8ab6405f")
-		(property "Reference" "D6"
-			(at 250.19 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805"
-			(at 259.08 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
-			(at 255.27 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 256.54 78.105 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 254 68.58 0)
+		(uuid "053da43c-3ca4-4888-850f-89755b414450")
+		(property "Reference" "#PWR035"
+			(at 196.85 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,22 +7091,56 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "3973c846-e8e2-4ee5-bb80-ca5461287fec")
+		(property "Value" "GND"
+			(at 196.85 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "cd7cb3c1-17e8-4dd9-8824-4ff88d643ac2")
+		(property "Footprint" ""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 196.85 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "04a6f6f2-494a-4996-8218-1c8876f5f2ff")
-		)
-		(pin "4"
-			(uuid "ec419c77-5f4d-44c8-a321-433a071f8d8a")
+			(uuid "4438621a-6ca9-4694-9a77-c3d608d46ef5")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "D6")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -6028,7 +7148,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 271.78 59.69 0)
+		(at 208.28 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6036,9 +7156,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1ed3a6a1-0cdc-46e0-b78a-3dc3eb97f100")
-		(property "Reference" "#PWR019"
-			(at 271.78 63.5 0)
+		(uuid "082ad337-1a97-4e37-8f13-07e646c6d931")
+		(property "Reference" "#PWR024"
+			(at 208.28 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,7 +7169,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 271.78 55.88 0)
+			(at 208.28 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6059,7 +7179,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 59.69 0)
+			(at 208.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +7190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 59.69 0)
+			(at 208.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,7 +7201,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 271.78 59.69 0)
+			(at 208.28 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,20 +7212,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c948b5d-d7af-42fc-9902-6849d69a1092")
+			(uuid "56e1b3a1-56ca-4947-9945-c050df8593a4")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:Kailh_Choc_V2_Brown")
-		(at 213.36 111.76 0)
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 148.59 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6113,9 +7233,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1fd57e42-71e8-443c-a0d0-5a0fe02b79d4")
-		(property "Reference" "SW2"
-			(at 213.36 106.68 0)
+		(uuid "0b753859-0b11-422e-8daa-837d551d292c")
+		(property "Reference" "C11"
+			(at 148.59 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6124,8 +7244,8 @@
 				)
 			)
 		)
-		(property "Value" "Kailh_Choc_V2_Brown"
-			(at 213.36 114.3 0)
+		(property "Value" "100nF"
+			(at 148.59 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6134,8 +7254,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ATLabControlModule:SW_Kailh_Choc_V2"
-			(at 213.36 106.68 0)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 153.67 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6146,7 +7266,285 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 106.68 0)
+			(at 144.78 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 148.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 156.21 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 148.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 148.59 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f0d7f97-7492-496f-9f55-1079955d78f0")
+		)
+		(pin "1"
+			(uuid "b85bff74-b00b-4e98-873a-7ba432b8b030")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 143.51 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1eb812a9-746c-47bc-9746-864114b08ffe")
+		(property "Reference" "#PWR017"
+			(at 143.51 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 143.51 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 143.51 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "272c9a6d-4ea8-4b0e-a12b-546354433997")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f5adf41-b482-4821-934b-c2e5132ada34")
+		(property "Reference" "#PWR032"
+			(at 132.08 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bc22a78-8b30-447b-a606-afe7d4d14fec")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:Kailh_Choc_V2_Brown")
+		(at 237.49 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1fd57e42-71e8-443c-a0d0-5a0fe02b79d4")
+		(property "Reference" "SW1"
+			(at 237.49 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Kailh_Choc_V2_Brown"
+			(at 237.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:SW_Kailh_Choc_V2"
+			(at 237.49 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6157,7 +7555,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 213.36 111.76 0)
+			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6176,7 +7574,84 @@
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "SW2")
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 218.44 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24001eb0-05de-419a-a8c5-7ceb8bdd1fe0")
+		(property "Reference" "#PWR037"
+			(at 218.44 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ba5663a-71c2-4f05-bc47-cc856353f7dd")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6184,7 +7659,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:USB_Type_C_Receptacle")
-		(at 25.4 125.73 0)
+		(at 21.59 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6194,7 +7669,7 @@
 		(dnp no)
 		(uuid "2892e7f0-9603-4cb8-b3a9-ce1ed4b1ce51")
 		(property "Reference" "J1"
-			(at 26.67 88.9 0)
+			(at 22.86 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6204,7 +7679,7 @@
 			)
 		)
 		(property "Value" "USB_Type_C_Receptacle"
-			(at 46.99 127 0)
+			(at 44.45 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6214,7 +7689,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 63.5 129.54 0)
+			(at 59.69 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6225,7 +7700,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108131730_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf"
-			(at 87.63 144.78 0)
+			(at 83.82 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6236,7 +7711,7 @@
 			)
 		)
 		(property "Description" "Receptacle USB - Type C"
-			(at 68.58 132.08 0)
+			(at 64.77 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6247,7 +7722,7 @@
 			)
 		)
 		(property "Manufacturer" "Korean Hroparts Elec"
-			(at 48.26 134.62 0)
+			(at 44.45 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6258,7 +7733,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "USB_C_Receptacle_HRO_TYPE-C-31-M-12"
-			(at 58.42 137.16 0)
+			(at 54.61 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6269,7 +7744,7 @@
 			)
 		)
 		(property "Distributor" "LCSC"
-			(at 40.64 139.7 0)
+			(at 36.83 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6280,7 +7755,7 @@
 			)
 		)
 		(property "Distributor Part Number" "C165948"
-			(at 41.91 142.24 0)
+			(at 38.1 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6352,7 +7827,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:Kailh_Choc_V2_Brown")
-		(at 231.14 111.76 0)
+		(at 265.43 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6361,8 +7836,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "297f701b-e4b4-4e5f-9d1a-db7e2882d8b2")
-		(property "Reference" "SW1"
-			(at 231.14 106.68 0)
+		(property "Reference" "SW2"
+			(at 265.43 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6372,7 +7847,8 @@
 			)
 		)
 		(property "Value" "Kailh_Choc_V2_Brown"
-			(at 231.14 114.3 0)
+			(at 265.43 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6382,7 +7858,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:SW_Kailh_Choc_V2"
-			(at 231.14 106.68 0)
+			(at 265.43 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +7869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 106.68 0)
+			(at 265.43 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +7880,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 231.14 111.76 0)
+			(at 265.43 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6423,7 +7899,7 @@
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -6431,7 +7907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 77.47 0)
+		(at 165.1 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6439,9 +7915,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2c700d73-30f5-4029-a9b2-62dfe05229de")
-		(property "Reference" "#PWR024"
-			(at 271.78 83.82 0)
+		(uuid "2c2cd9bf-8721-4b28-a2f5-2066e83a2771")
+		(property "Reference" "#PWR022"
+			(at 165.1 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6452,7 +7928,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 271.78 81.28 0)
+			(at 165.1 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6462,7 +7938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 77.47 0)
+			(at 165.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6473,7 +7949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 77.47 0)
+			(at 165.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6484,7 +7960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 271.78 77.47 0)
+			(at 165.1 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6495,12 +7971,99 @@
 			)
 		)
 		(pin "1"
-			(uuid "e403b521-89cd-41c7-b157-d41051387981")
+			(uuid "816c0956-c5a6-47e8-b565-f4965f756aa1")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR024")
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:SK6805")
+		(at 143.51 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32e6b25f-3d46-41df-bb04-cf239dc5f270")
+		(property "Reference" "D4"
+			(at 139.7 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 148.59 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
+			(at 144.78 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 146.05 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 143.51 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "10cdbbb6-1137-4f58-b2ec-de7f0028d37d")
+		)
+		(pin "3"
+			(uuid "9faa9b49-9bef-4297-9092-610595ca40e8")
+		)
+		(pin "1"
+			(uuid "a975b18d-611a-4a98-9646-bcc23eb4a8a2")
+		)
+		(pin "4"
+			(uuid "e58983aa-1b75-4ca5-872f-f657ad24afcc")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -6508,7 +8071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 77.47 0)
+		(at 121.92 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6518,7 +8081,7 @@
 		(dnp no)
 		(uuid "34999872-3aec-4bad-9d03-67efaa43f1b3")
 		(property "Reference" "#PWR020"
-			(at 200.66 83.82 0)
+			(at 121.92 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6529,7 +8092,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 81.28 0)
+			(at 121.92 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6539,7 +8102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 77.47 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6550,7 +8113,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 77.47 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +8124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 77.47 0)
+			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,8 +8147,96 @@
 		)
 	)
 	(symbol
+		(lib_id "ATLabControlModule:SN74LVC1G17DBVRG4")
+		(at 207.01 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37df908b-e41c-4253-bcfa-ca6503ba6ce8")
+		(property "Reference" "U4"
+			(at 209.55 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1G17DBVRG4"
+			(at 218.44 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:SOT-23-5"
+			(at 207.01 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1653155637088&ref_url=https%253A%252F%252Feu.mouser.com%252F"
+			(at 207.01 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Schmitt-Trigger Buffer"
+			(at 207.01 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "d2370ddc-3558-4b6c-a9e4-b561d15b6b64")
+		)
+		(pin "4"
+			(uuid "a1fbca99-27a0-460c-8a00-f173e618ecca")
+		)
+		(pin "3"
+			(uuid "72599f96-af24-4538-854d-cc3afdabd527")
+		)
+		(pin "2"
+			(uuid "2460af84-b588-450c-9628-fbef5c5a1a49")
+		)
+		(pin "1"
+			(uuid "d8d8a302-d493-4884-9261-6bbf6c3a70c6")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 68.58 109.22 270)
+		(at 64.77 121.92 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6595,7 +8246,7 @@
 		(dnp no)
 		(uuid "39aa672c-7a2a-45c5-abfe-cc963d28f330")
 		(property "Reference" "#PWR02"
-			(at 62.23 109.22 0)
+			(at 58.42 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6606,7 +8257,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 109.22 90)
+			(at 62.23 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6617,7 +8268,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 109.22 0)
+			(at 64.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6628,7 +8279,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 109.22 0)
+			(at 64.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6639,7 +8290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 109.22 0)
+			(at 64.77 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6662,162 +8313,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 254 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3bc466d7-f69f-41e4-ac01-025da150b5c5")
-		(property "Reference" "#PWR018"
-			(at 254 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 254 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 254 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fd59f399-4238-4ba2-a566-aa7990a3698f")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 236.22 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c00fd5c-ef2c-45f5-ae5e-f9f684678aff")
-		(property "Reference" "#PWR017"
-			(at 236.22 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 236.22 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 236.22 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4034c0d-df0a-4511-a832-d022e0059f6a")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 231.14 142.24 0)
+		(at 247.65 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6825,9 +8322,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "46b8ee5f-264c-4500-b84f-d9541946aa99")
-		(property "Reference" "#PWR013"
-			(at 231.14 148.59 0)
+		(uuid "3b992109-d7b6-4a17-83aa-0dd54a6afaef")
+		(property "Reference" "#PWR030"
+			(at 247.65 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +8335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 146.05 0)
+			(at 247.65 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6848,7 +8345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 142.24 0)
+			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6859,7 +8356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 142.24 0)
+			(at 247.65 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6870,7 +8367,161 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 142.24 0)
+			(at 247.65 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52a24132-963f-4f16-8913-18b3d9045260")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4641abb0-6777-4f0a-80d3-a9c3b09b1b95")
+		(property "Reference" "#PWR036"
+			(at 208.28 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 208.28 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0066aa2d-eba1-426c-a032-7c611e515c82")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46b8ee5f-264c-4500-b84f-d9541946aa99")
+		(property "Reference" "#PWR013"
+			(at 265.43 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6894,7 +8545,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
-		(at 85.09 82.55 0)
+		(at 212.09 72.39 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6902,31 +8553,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "581f11b1-e74c-4260-97fe-2aff8c0a2d65")
-		(property "Reference" "C3"
-			(at 82.55 81.28 0)
+		(uuid "50021959-7d8b-4568-909a-a9d6226d3b41")
+		(property "Reference" "C7"
+			(at 212.09 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "100nF"
-			(at 82.55 83.82 0)
+			(at 212.09 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
-			(at 101.6 87.63 0)
+			(at 217.17 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6937,7 +8586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 78.74 0)
+			(at 208.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6948,7 +8597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 82.55 0)
+			(at 212.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +8608,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 85.09 82.55 0)
+			(at 212.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,7 +8619,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 93.98 90.17 0)
+			(at 219.71 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,7 +8630,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 85.09 82.55 0)
+			(at 212.09 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +8641,209 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 85.09 82.55 0)
+			(at 212.09 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d55685a5-71d2-4d31-823b-10c4be93d935")
+		)
+		(pin "1"
+			(uuid "55de39da-ae8d-4181-8bca-929b36a868dd")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5571d028-2bbd-4ea1-a312-578839638b9b")
+		(property "Reference" "#PWR033"
+			(at 153.67 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03934ed8-0e28-4f93-8c8a-d821504dc80c")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 73.66 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "581f11b1-e74c-4260-97fe-2aff8c0a2d65")
+		(property "Reference" "C3"
+			(at 71.12 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100nF"
+			(at 71.12 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,8 +8869,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 231.14 124.46 0)
+		(lib_id "ATLabControlModule:SK6805")
+		(at 208.28 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7027,9 +8878,53 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5934a4a3-9160-43ef-b303-d603b9cbb68b")
-		(property "Reference" "#PWR014"
-			(at 231.14 128.27 0)
+		(uuid "5ae5dfcc-7bda-4fc5-a2ad-53aaa2cc1624")
+		(property "Reference" "D7"
+			(at 204.47 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 213.36 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
+			(at 209.55 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 210.82 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 208.28 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7039,56 +8934,22 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 231.14 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "2296f968-042f-49f1-b80c-8ec0251f5e58")
 		)
-		(property "Footprint" ""
-			(at 231.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 231.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 231.14 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "fc8d3e6c-30ab-4e74-8335-20aad1fae45e")
 		)
 		(pin "1"
-			(uuid "e1f1f501-0c60-4d89-b0d1-828d6618bafb")
+			(uuid "2ea9c616-067e-4d2e-8563-405eb59430d0")
+		)
+		(pin "4"
+			(uuid "f06ac0ff-a36d-4e01-958e-a5b32abcd6d8")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR014")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -7096,7 +8957,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:C_0805_(2012_Metric)")
-		(at 120.65 77.47 0)
+		(at 109.22 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7104,10 +8965,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b49fb51-0ee4-4fa5-8139-d496d9ffb1cf")
 		(property "Reference" "C4"
-			(at 124.46 76.1999 0)
+			(at 111.76 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7118,7 +8978,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 124.46 78.7399 0)
+			(at 111.76 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7129,7 +8989,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:C_0805_(2012_Metric)"
-			(at 137.16 82.55 0)
+			(at 125.73 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7140,7 +9000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 73.66 0)
+			(at 87.63 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7151,7 +9011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 77.47 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7162,7 +9022,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 120.65 77.47 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7173,7 +9033,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 129.54 85.09 0)
+			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7184,7 +9044,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 120.65 77.47 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7195,7 +9055,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 120.65 77.47 0)
+			(at 109.22 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7222,7 +9082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 142.24 0)
+		(at 237.49 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7232,7 +9092,7 @@
 		(dnp no)
 		(uuid "5dc5b09e-908f-4932-a3e6-e5c47297845a")
 		(property "Reference" "#PWR012"
-			(at 213.36 148.59 0)
+			(at 237.49 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7243,7 +9103,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 146.05 0)
+			(at 237.49 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7253,7 +9113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 142.24 0)
+			(at 237.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +9124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 142.24 0)
+			(at 237.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7275,7 +9135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 142.24 0)
+			(at 237.49 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7299,7 +9159,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
-		(at 55.88 97.79 90)
+		(at 52.07 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7309,7 +9169,7 @@
 		(dnp no)
 		(uuid "5df0acd7-7812-4dd4-8bae-9d03b4d20555")
 		(property "Reference" "R1"
-			(at 54.61 95.25 90)
+			(at 50.8 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7319,7 +9179,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 58.42 95.25 90)
+			(at 54.61 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7329,7 +9189,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
-			(at 59.69 82.55 0)
+			(at 55.88 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7340,7 +9200,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 113.03 0)
+			(at 48.26 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7351,7 +9211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 97.79 0)
+			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7362,7 +9222,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 55.88 97.79 0)
+			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7373,7 +9233,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 62.23 90.17 0)
+			(at 58.42 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7384,7 +9244,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 55.88 97.79 0)
+			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +9255,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 55.88 97.79 0)
+			(at 52.07 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7421,8 +9281,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:SK6805")
-		(at 218.44 68.58 0)
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 191.77 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7430,9 +9290,257 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5df7058b-b626-4e31-ac9a-8eee68547b9a")
-		(property "Reference" "D4"
-			(at 214.63 62.23 0)
+		(uuid "5f7d228c-e518-4860-8f47-3cd6dd58a1ff")
+		(property "Reference" "C13"
+			(at 191.77 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 191.77 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 196.85 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 199.39 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 191.77 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7434f956-4031-4245-8f73-4f6da0dfb641")
+		)
+		(pin "1"
+			(uuid "16bee6b8-2493-4532-8ccb-6b70dbdadcbc")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
+		(at 224.79 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "60f52492-6c87-4c86-b53f-d9adf3b073dc")
+		(property "Reference" "R5"
+			(at 223.52 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
+			(at 240.03 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 224.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 224.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 232.41 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 224.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 224.79 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "beaafd20-1169-4699-bff2-d958e8ca8baa")
+		)
+		(pin "2"
+			(uuid "5149bdf2-7d58-488d-af1b-d6ed128c743b")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:SK6805")
+		(at 165.1 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "656a3d10-e945-433a-a0d2-6e862ed26d20")
+		(property "Reference" "D5"
+			(at 161.29 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7442,7 +9550,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 223.52 74.93 0)
+			(at 170.18 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7452,7 +9560,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
-			(at 219.71 76.2 0)
+			(at 166.37 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7464,7 +9572,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 220.98 78.105 0)
+			(at 167.64 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7476,7 +9584,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 218.44 68.58 0)
+			(at 165.1 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7487,29 +9595,29 @@
 			)
 		)
 		(pin "2"
-			(uuid "33ea3458-c623-479e-bfbf-e83a1883b642")
+			(uuid "a0c4957d-3e39-407d-955c-e645caa3bffe")
 		)
 		(pin "3"
-			(uuid "5ec5952b-c40b-454f-ac82-84a16455f7f7")
+			(uuid "fc4a0a20-2ba3-4e1b-ac54-8bb5a998a07d")
 		)
 		(pin "1"
-			(uuid "3da75130-2f64-441b-91d8-a463efbc934a")
+			(uuid "abf6596b-8fae-4c5c-a520-b49242befe1d")
 		)
 		(pin "4"
-			(uuid "945f2b91-a443-4287-8e20-b7e911671fd7")
+			(uuid "7ed2bc98-f887-47f9-8039-f85cadedc8d3")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "D4")
+					(reference "D5")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
-		(at 85.09 72.39 0)
+		(lib_id "power:GND")
+		(at 217.17 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7517,31 +9625,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6caa4df8-6601-485a-a803-7a2bd8e17ead")
-		(property "Reference" "R4"
-			(at 83.82 71.12 0)
+		(uuid "692ee481-2a36-4e4f-8142-023161b77ff4")
+		(property "Reference" "#PWR029"
+			(at 217.17 80.01 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 83.82 73.66 0)
+		(property "Value" "GND"
+			(at 217.17 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
-			(at 100.33 76.2 0)
+		(property "Footprint" ""
+			(at 217.17 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +9659,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 68.58 0)
+			(at 217.17 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6271791d-1fa0-4e27-808a-1e41f255df87")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
+		(at 73.66 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6caa4df8-6601-485a-a803-7a2bd8e17ead")
+		(property "Reference" "R4"
+			(at 72.39 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.39 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
+			(at 88.9 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,7 +9748,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 85.09 72.39 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7574,7 +9759,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 85.09 72.39 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7585,7 +9770,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 92.71 78.74 0)
+			(at 81.28 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7596,7 +9781,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 85.09 72.39 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7607,7 +9792,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 85.09 72.39 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7633,8 +9818,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 69.85 66.04 0)
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 127 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7642,10 +9827,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "6e36eebc-94ab-4d0e-a50f-20ef5054d80b")
-		(property "Reference" "#PWR05"
-			(at 69.85 69.85 0)
-			(hide yes)
+		(uuid "6d986646-f195-4ced-bc5b-6b8ab5379dcd")
+		(property "Reference" "C10"
+			(at 127 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7654,8 +9838,8 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 69.85 62.23 0)
+		(property "Value" "100nF"
+			(at 127 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7664,8 +9848,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 66.04 0)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 132.08 16.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,7 +9860,131 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 66.04 0)
+			(at 123.19 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 134.62 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 127 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f480222-2a99-406e-bd87-65ed49f8e20c")
+		)
+		(pin "1"
+			(uuid "266e1637-95b4-438d-bd57-4c0e40aaf9c0")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 58.42 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e36eebc-94ab-4d0e-a50f-20ef5054d80b")
+		(property "Reference" "#PWR05"
+			(at 58.42 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 58.42 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7687,7 +9995,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 69.85 66.04 0)
+			(at 58.42 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7710,8 +10018,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
-		(at 55.88 100.33 90)
+		(lib_id "power:VBUS")
+		(at 265.43 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7719,9 +10027,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "7266b0dd-3a41-4af7-9832-9138186d4385")
-		(property "Reference" "R2"
-			(at 54.61 102.87 90)
+		(uuid "706b19fe-d0e4-4a54-9807-76a2d30f6302")
+		(property "Reference" "#PWR014"
+			(at 265.43 71.12 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7730,8 +10039,8 @@
 				)
 			)
 		)
-		(property "Value" "5k1"
-			(at 58.42 102.87 90)
+		(property "Value" "VBUS"
+			(at 265.43 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7740,8 +10049,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
-			(at 59.69 85.09 0)
+		(property "Footprint" ""
+			(at 265.43 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7752,7 +10061,83 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 115.57 0)
+			(at 265.43 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 265.43 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54c0dcea-f16e-46f4-9ef5-532ca6a11ac6")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:R_0402_(1005_Metric)")
+		(at 52.07 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7266b0dd-3a41-4af7-9832-9138186d4385")
+		(property "Reference" "R2"
+			(at 50.8 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 54.61 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:R_0402_(1005_Metric)"
+			(at 55.88 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7763,7 +10148,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 100.33 0)
+			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7774,7 +10159,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 55.88 100.33 0)
+			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7785,7 +10170,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 62.23 92.71 0)
+			(at 58.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7796,7 +10181,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 55.88 100.33 0)
+			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7807,7 +10192,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 55.88 100.33 0)
+			(at 52.07 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,8 +10218,131 @@
 		)
 	)
 	(symbol
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 213.36 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "762e17e6-326e-4ee6-a23a-6c58cfa38fa9")
+		(property "Reference" "C14"
+			(at 213.36 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 213.36 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 218.44 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 213.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 220.98 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 213.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 213.36 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "63c6abc6-48d2-4790-a155-0f4ce2b547f6")
+		)
+		(pin "1"
+			(uuid "372d889f-8a92-4ad4-8a19-38518dc66f68")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ATLabControlModule:SK6805")
-		(at 200.66 68.58 0)
+		(at 121.92 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7844,7 +10352,7 @@
 		(dnp no)
 		(uuid "7c7b17ae-0bcd-4fc4-be17-d5d96b12537f")
 		(property "Reference" "D3"
-			(at 196.85 62.23 0)
+			(at 118.11 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7854,7 +10362,7 @@
 			)
 		)
 		(property "Value" "SK6805"
-			(at 205.74 74.93 0)
+			(at 127 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7864,7 +10372,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
-			(at 201.93 76.2 0)
+			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7876,7 +10384,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 203.2 78.105 0)
+			(at 124.46 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7888,7 +10396,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 200.66 68.58 0)
+			(at 121.92 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,8 +10428,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 218.44 77.47 0)
+		(lib_id "ATLabControlModule:SK6805")
+		(at 186.69 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7929,9 +10437,53 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "862954df-158c-4be4-8fad-78f2dd5f17f4")
-		(property "Reference" "#PWR021"
-			(at 218.44 83.82 0)
+		(uuid "82fd57e2-8ac7-4f99-b21f-42fdc6b35d3a")
+		(property "Reference" "D6"
+			(at 182.88 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6805"
+			(at 191.77 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
+			(at 187.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
+			(at 189.23 52.705 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7941,56 +10493,22 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 218.44 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "2"
+			(uuid "707b20ce-4fe1-4333-b550-f4594a0197a0")
 		)
-		(property "Footprint" ""
-			(at 218.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 218.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 218.44 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "9e83ed6e-6d58-4266-a5ac-601a72eacf8a")
 		)
 		(pin "1"
-			(uuid "73013f7e-9e0b-4cff-9ebb-b4f63b5a92a1")
+			(uuid "b92a04cd-2548-4c0b-9294-956601879eb1")
+		)
+		(pin "4"
+			(uuid "5e5a058a-a15d-460e-baf6-bd5468c4bed0")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR021")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -7998,7 +10516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 142.24 0)
+		(at 138.43 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8008,7 +10526,7 @@
 		(dnp no)
 		(uuid "89e0b9a7-0c90-4296-9a05-de712f345e90")
 		(property "Reference" "#PWR08"
-			(at 127 148.59 0)
+			(at 138.43 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8019,7 +10537,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 146.05 0)
+			(at 138.43 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8029,7 +10547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 142.24 0)
+			(at 138.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8040,7 +10558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 142.24 0)
+			(at 138.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +10569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 142.24 0)
+			(at 138.43 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8075,7 +10593,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 139.7 0)
+		(at 115.57 152.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8085,7 +10603,7 @@
 		(dnp no)
 		(uuid "8b5f8222-af44-4157-9b80-2dabd8074f18")
 		(property "Reference" "#PWR09"
-			(at 104.14 146.05 0)
+			(at 115.57 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8096,7 +10614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 104.14 143.51 0)
+			(at 115.57 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8106,7 +10624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 139.7 0)
+			(at 115.57 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8117,7 +10635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 139.7 0)
+			(at 115.57 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +10646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 139.7 0)
+			(at 115.57 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,8 +10669,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 120.65 66.04 0)
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 242.57 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8160,10 +10678,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "99f03420-fe2f-49b2-b276-aa95042a3646")
-		(property "Reference" "#PWR04"
-			(at 120.65 69.85 0)
-			(hide yes)
+		(uuid "9139cab0-3ef3-44f5-a845-fe9426751c4b")
+		(property "Reference" "C8"
+			(at 242.57 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8172,8 +10689,8 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 120.65 62.23 0)
+		(property "Value" "100nF"
+			(at 242.57 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8182,8 +10699,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 120.65 66.04 0)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 247.65 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8194,7 +10711,254 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 66.04 0)
+			(at 238.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 242.57 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 250.19 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 242.57 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 242.57 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1eca9beb-86d1-4e71-b3a9-f79bd8c66035")
+		)
+		(pin "1"
+			(uuid "42dadd0b-b8ce-4f88-b492-d80a0f2aa92d")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 170.18 33.02 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9582a317-8f05-4255-84ff-9828d893aafe")
+		(property "Reference" "C12"
+			(at 170.18 26.67 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 170.18 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 175.26 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 170.18 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 177.8 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 170.18 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 170.18 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9601799-3f8d-4715-b5b9-823432f00b95")
+		)
+		(pin "1"
+			(uuid "8c5ec48d-8f77-43a5-b81a-10b1e4233a49")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 120.65 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99f03420-fe2f-49b2-b276-aa95042a3646")
+		(property "Reference" "#PWR04"
+			(at 120.65 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 120.65 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +10969,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 120.65 66.04 0)
+			(at 120.65 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +10993,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:SK6812MINI-E")
-		(at 213.36 133.35 0)
+		(at 237.49 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8239,7 +11003,7 @@
 		(dnp no)
 		(uuid "9d28220f-e4a0-474b-81b4-8a8de53413e6")
 		(property "Reference" "D1"
-			(at 209.55 127 0)
+			(at 233.68 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8249,7 +11013,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 220.98 139.7 0)
+			(at 245.11 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8259,7 +11023,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 214.63 140.97 0)
+			(at 238.76 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8271,7 +11035,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 215.9 142.875 0)
+			(at 240.03 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8283,7 +11047,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 213.36 133.35 0)
+			(at 237.49 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8315,8 +11079,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 200.66 59.69 0)
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 132.08 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8324,30 +11088,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "9fa0b0a1-0868-4743-b119-3f0ecf582a1d")
-		(property "Reference" "#PWR015"
-			(at 200.66 63.5 0)
-			(hide yes)
+		(uuid "a1f56f87-2e22-4e35-8089-e621cc26845e")
+		(property "Reference" "C6"
+			(at 134.62 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 200.66 55.88 0)
+		(property "Value" "100nF"
+			(at 134.62 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 200.66 59.69 0)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 148.59 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,85 +11123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 200.66 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72a153d5-2ffb-433a-bdc2-98e34aace1c0")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ATLabControlModule:C_1206_(3216_Metric)")
-		(at 25.4 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aa1b47aa-f9f4-4c46-a946-95239f4a03e4")
-		(property "Reference" "C1"
-			(at 22.86 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10nF"
-			(at 22.86 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "ATLabControlModule:C_1206_(3216_Metric)"
-			(at 41.91 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 3.81 133.35 0)
+			(at 110.49 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8447,7 +11134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 137.16 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +11145,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 25.4 137.16 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +11156,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 34.29 144.78 0)
+			(at 140.97 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8480,7 +11167,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 25.4 137.16 0)
+			(at 132.08 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8491,7 +11178,286 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 25.4 137.16 0)
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "299b0234-0989-43b7-8052-be176dbbf5a0")
+		)
+		(pin "1"
+			(uuid "54b60480-109b-4070-8b76-a84bc8494e52")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 275.59 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7fffe96-681e-4dd2-b8cc-9c9ddc8c98fb")
+		(property "Reference" "#PWR031"
+			(at 275.59 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37c757c2-7ccf-4c92-813a-e55e74692ae0")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9ea00b8-93b1-4284-b0b0-cae0c0267366")
+		(property "Reference" "#FLG02"
+			(at 73.66 103.505 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "978121cc-1e7e-45ff-b543-c883203d1d7b")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:C_1206_(3216_Metric)")
+		(at 21.59 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa1b47aa-f9f4-4c46-a946-95239f4a03e4")
+		(property "Reference" "C1"
+			(at 19.05 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10nF"
+			(at 19.05 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_1206_(3216_Metric)"
+			(at 38.1 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 21.59 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 21.59 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 30.48 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 21.59 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 21.59 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8517,85 +11483,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 254 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ad4abb9e-e885-4045-b9dd-a5b8a9fa486e")
-		(property "Reference" "#PWR023"
-			(at 254 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 254 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 254 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 254 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80006682-5a86-497f-a312-292f3f371c68")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VBUS")
-		(at 218.44 59.69 0)
+		(at 186.69 30.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8603,9 +11492,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b2577baa-11fa-4e7b-aeae-ad5d0db24554")
-		(property "Reference" "#PWR016"
-			(at 218.44 63.5 0)
+		(uuid "ab3adb59-c6eb-46ac-b6bb-f8bd036fd9de")
+		(property "Reference" "#PWR019"
+			(at 186.69 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8616,7 +11505,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 218.44 55.88 0)
+			(at 186.69 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8626,7 +11515,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 59.69 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8637,7 +11526,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 59.69 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8648,7 +11537,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 218.44 59.69 0)
+			(at 186.69 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8659,12 +11548,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "971c8bf3-55f0-4aa4-b11d-a63358647a23")
+			(uuid "ee041a5c-88f6-4d05-87c3-f5d3ca536759")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR016")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8672,7 +11561,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 88.9 0)
+		(at 91.44 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8682,7 +11571,7 @@
 		(dnp no)
 		(uuid "b5cf6aee-258e-421e-a0ca-b9bee3f7b605")
 		(property "Reference" "#PWR07"
-			(at 69.85 95.25 0)
+			(at 91.44 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8693,7 +11582,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 92.71 0)
+			(at 91.44 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8703,7 +11592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 88.9 0)
+			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8714,7 +11603,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 88.9 0)
+			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8725,7 +11614,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 88.9 0)
+			(at 91.44 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8748,8 +11637,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:SK6805")
-		(at 236.22 68.58 0)
+		(lib_id "power:GND")
+		(at 271.78 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8757,53 +11646,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b72617f4-6f06-47c5-961b-663ee81e987f")
-		(property "Reference" "D5"
-			(at 232.41 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805"
-			(at 241.3 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
-			(at 237.49 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 238.76 78.105 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 236.22 68.58 0)
+		(uuid "bf1a2bde-e018-486f-b599-72e8fdbb3d24")
+		(property "Reference" "#PWR026"
+			(at 271.78 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8813,51 +11658,8 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "9cc2167f-6df2-423c-a9e0-ed47668ff3cd")
-		)
-		(pin "3"
-			(uuid "a59006c0-2127-4b78-a99c-ff6807fb429a")
-		)
-		(pin "1"
-			(uuid "0311acb9-7930-45ec-9d84-2341adbbdaec")
-		)
-		(pin "4"
-			(uuid "ad8783c3-7274-4b9a-a20c-85400147f120")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 213.36 124.46 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c350af69-c164-41e8-bfbd-01cb2ec16217")
-		(property "Reference" "#PWR011"
-			(at 213.36 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 213.36 120.65 0)
+		(property "Value" "GND"
+			(at 271.78 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8867,7 +11669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 124.46 0)
+			(at 271.78 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8878,7 +11680,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 124.46 0)
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 271.78 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9869407-aae8-4c4c-ad66-b1c88239b395")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 237.49 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c350af69-c164-41e8-bfbd-01cb2ec16217")
+		(property "Reference" "#PWR011"
+			(at 237.49 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 237.49 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8889,7 +11768,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 213.36 124.46 0)
+			(at 237.49 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8913,7 +11792,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:Conn_ARM_SWD_TagConnect_TC2030")
-		(at 106.68 128.27 0)
+		(at 118.11 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8923,7 +11802,7 @@
 		(dnp no)
 		(uuid "c539a809-ed8f-41e8-9cd4-332994acd07f")
 		(property "Reference" "J2"
-			(at 111.76 119.38 0)
+			(at 123.19 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8934,7 +11813,7 @@
 			)
 		)
 		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030"
-			(at 111.76 137.16 0)
+			(at 123.19 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8946,7 +11825,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 106.68 146.05 0)
+			(at 118.11 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8957,7 +11836,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 106.68 143.51 0)
+			(at 118.11 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8968,7 +11847,7 @@
 			)
 		)
 		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin"
-			(at 106.68 128.27 0)
+			(at 118.11 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9007,7 +11886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 27.94 144.78 0)
+		(at 207.01 86.36 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9015,9 +11894,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "cc364126-c3f0-4922-bc38-2738d5995594")
-		(property "Reference" "#PWR03"
-			(at 27.94 151.13 0)
+		(uuid "c658fc31-c781-4d6a-ab8b-9f03973fd9fa")
+		(property "Reference" "#PWR027"
+			(at 207.01 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +11907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 27.94 148.59 0)
+			(at 207.01 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9038,7 +11917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 144.78 0)
+			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9049,7 +11928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 144.78 0)
+			(at 207.01 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +11939,238 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 144.78 0)
+			(at 207.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e444f980-704f-417d-b2e4-1b06c34c15b6")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c66f05c2-fa8a-45c5-b471-a6ab4562c24e")
+		(property "Reference" "#PWR025"
+			(at 243.84 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10500fab-f561-4fcb-bf6c-2c95001284f1")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb936584-638f-4ee0-a673-ebf4f4640f74")
+		(property "Reference" "#PWR034"
+			(at 175.26 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a3a8691-1226-41c9-b288-893a70e6c464")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 24.13 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cc364126-c3f0-4922-bc38-2738d5995594")
+		(property "Reference" "#PWR03"
+			(at 24.13 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 24.13 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,8 +12193,162 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 165.1 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd3ca437-e17d-4235-b0ca-705f7a0bbc02")
+		(property "Reference" "#PWR018"
+			(at 165.1 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 165.1 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 165.1 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2446658a-cd4b-4801-948a-4202cf59d108")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 207.01 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce57f62a-dfc9-4198-93d6-619a374627b6")
+		(property "Reference" "#PWR028"
+			(at 207.01 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 207.01 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 207.01 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b536f7c-36e9-4799-9f28-ff695e3835b7")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ATLabControlModule:SK6812MINI-E")
-		(at 231.14 133.35 0)
+		(at 265.43 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9094,7 +12358,7 @@
 		(dnp no)
 		(uuid "cef93fd0-81f2-440a-9d8d-2fadab4fd8ad")
 		(property "Reference" "D2"
-			(at 227.33 127 0)
+			(at 261.62 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9104,7 +12368,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 238.76 139.7 0)
+			(at 273.05 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9114,7 +12378,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
-			(at 232.41 140.97 0)
+			(at 266.7 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9126,7 +12390,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
-			(at 233.68 142.875 0)
+			(at 267.97 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9138,7 +12402,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 231.14 133.35 0)
+			(at 265.43 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9171,7 +12435,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 104.14 116.84 0)
+		(at 115.57 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9181,7 +12445,7 @@
 		(dnp no)
 		(uuid "d3f7e4e2-0b5c-44fc-8f29-12bc4cc9d6a3")
 		(property "Reference" "#PWR010"
-			(at 104.14 120.65 0)
+			(at 115.57 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9192,7 +12456,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 104.14 113.03 0)
+			(at 115.57 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9202,7 +12466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 116.84 0)
+			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9213,7 +12477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 116.84 0)
+			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9224,7 +12488,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.14 116.84 0)
+			(at 115.57 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9247,8 +12511,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 91.44 109.22 270)
+		(lib_id "power:PWR_FLAG")
+		(at 73.66 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9256,9 +12520,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "da464001-1163-4ee1-a078-d8a58a64800b")
-		(property "Reference" "#PWR06"
-			(at 87.63 109.22 0)
+		(uuid "d3fb5525-6871-4c96-9adb-0bd5636c5c08")
+		(property "Reference" "#FLG01"
+			(at 73.66 76.835 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9268,19 +12532,18 @@
 				)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 93.98 109.22 90)
+		(property "Value" "PWR_FLAG"
+			(at 73.66 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 109.22 0)
+			(at 73.66 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9291,7 +12554,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 109.22 0)
+			(at 73.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 73.66 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3091b01c-cb3a-44f2-a50c-d17d570f0abd")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 87.63 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da464001-1163-4ee1-a078-d8a58a64800b")
+		(property "Reference" "#PWR06"
+			(at 83.82 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 90.17 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9302,7 +12643,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 91.44 109.22 0)
+			(at 87.63 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,95 +12666,8 @@
 		)
 	)
 	(symbol
-		(lib_id "ATLabControlModule:SK6805")
-		(at 271.78 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ddcbcd5b-5068-45e0-aa00-74cb4d2cdb2d")
-		(property "Reference" "D7"
-			(at 267.97 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SK6805"
-			(at 276.86 74.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ATLabControlModule:LED_SK6812_EC15_1.5x1.5mm"
-			(at 273.05 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/3484/3484_Datasheet.pdf"
-			(at 274.32 78.105 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 271.78 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c8f69bb3-eaf7-4fcf-b6d3-454384f32328")
-		)
-		(pin "3"
-			(uuid "fc096571-257b-4ca6-b88b-65b3be18dc98")
-		)
-		(pin "1"
-			(uuid "5afe93f4-b9e1-40a0-a51d-4e2a19587e69")
-		)
-		(pin "4"
-			(uuid "6681a62e-db64-4288-a670-0a31994adbd8")
-		)
-		(instances
-			(project "ATLabControlModule"
-				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 62.23 99.06 90)
+		(at 186.69 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9421,9 +12675,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e15cce80-8f5e-4e6f-90ab-f6577cfcb248")
-		(property "Reference" "#PWR01"
-			(at 68.58 99.06 0)
+		(uuid "dd4c32af-5098-4e96-9dfa-a4ae5569f956")
+		(property "Reference" "#PWR023"
+			(at 186.69 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9434,18 +12688,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 99.06 90)
+			(at 186.69 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 99.06 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9456,7 +12709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 99.06 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9467,7 +12720,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 62.23 99.06 0)
+			(at 186.69 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33f12e7d-c327-44c8-babb-ce9cc6cc7763")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 58.42 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e15cce80-8f5e-4e6f-90ab-f6577cfcb248")
+		(property "Reference" "#PWR01"
+			(at 64.77 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 58.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9491,7 +12822,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 77.47 0)
+		(at 143.51 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9499,9 +12830,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e6f8ef6d-fd59-400e-8e27-2a11e3277974")
-		(property "Reference" "#PWR022"
-			(at 236.22 83.82 0)
+		(uuid "e3a4cf6b-cdc8-4586-969a-cece1bb18de4")
+		(property "Reference" "#PWR021"
+			(at 143.51 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9512,7 +12843,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 236.22 81.28 0)
+			(at 143.51 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9522,7 +12853,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 77.47 0)
+			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9533,7 +12864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 77.47 0)
+			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9544,7 +12875,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 77.47 0)
+			(at 143.51 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9555,12 +12886,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "482ddd3d-799a-4944-adb7-56b0b0366d3f")
+			(uuid "39821f51-203e-47ad-843a-69952b8015c0")
 		)
 		(instances
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9568,7 +12899,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:USBLC6-2P6")
-		(at 72.39 116.84 0)
+		(at 68.58 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9578,7 +12909,7 @@
 		(dnp no)
 		(uuid "ea308b9e-1a4c-43c2-9d4c-c55ca3e43204")
 		(property "Reference" "U2"
-			(at 73.66 100.33 0)
+			(at 69.85 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9588,7 +12919,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 78.74 118.11 0)
+			(at 74.93 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9598,7 +12929,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:SOT-666"
-			(at 80.01 121.92 0)
+			(at 76.2 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9609,7 +12940,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf"
-			(at 80.01 124.46 0)
+			(at 76.2 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9620,7 +12951,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors High Speed Interface Protection"
-			(at 81.28 127 0)
+			(at 77.47 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9631,7 +12962,7 @@
 			)
 		)
 		(property "Manufacturer" "STMicroelectronics"
-			(at 80.01 129.54 0)
+			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9642,7 +12973,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "USBLC6-2P6"
-			(at 78.74 132.08 0)
+			(at 74.93 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9653,7 +12984,7 @@
 			)
 		)
 		(property "Distributor" "Digikey"
-			(at 78.74 134.62 0)
+			(at 74.93 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +12995,7 @@
 			)
 		)
 		(property "Distributor Part Number" "497-5026-1-ND"
-			(at 78.74 137.16 0)
+			(at 74.93 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9703,7 +13034,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:MIC5317-3.3xM5")
-		(at 100.33 69.85 0)
+		(at 88.9 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9713,7 +13044,7 @@
 		(dnp no)
 		(uuid "edc15c18-4b97-49f0-a1bf-ae64563de525")
 		(property "Reference" "U3"
-			(at 96.52 63.5 0)
+			(at 85.09 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9723,7 +13054,7 @@
 			)
 		)
 		(property "Value" "MIC5317-3.3xM5"
-			(at 111.76 85.09 0)
+			(at 100.33 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9733,7 +13064,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:SOT-23-5"
-			(at 100.33 60.96 0)
+			(at 88.9 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9744,7 +13075,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/MIC5317-High-Performance-Single-150mA-LDO-DS20006195B.pdf"
-			(at 92.71 49.53 0)
+			(at 81.28 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9755,7 +13086,7 @@
 			)
 		)
 		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 6V, SOT23-5"
-			(at 100.33 52.07 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9766,7 +13097,7 @@
 			)
 		)
 		(property "Manufacturer" "Microchip Technology"
-			(at 100.33 52.07 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9777,7 +13108,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "MIC5317-3.3YM5-TR"
-			(at 100.33 52.07 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9788,7 +13119,7 @@
 			)
 		)
 		(property "Distributor" "DigiKey"
-			(at 100.33 52.07 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,7 +13130,7 @@
 			)
 		)
 		(property "Distributor Part Number" "MIC5317-3.3YM5-CT-ND"
-			(at 100.33 52.07 0)
+			(at 88.9 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9834,8 +13165,131 @@
 		)
 	)
 	(symbol
+		(lib_id "ATLabControlModule:C_0402_(1005_Metric)")
+		(at 270.51 69.85 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "edfad25f-5c4f-43a5-aa4c-1f1adabbac2e")
+		(property "Reference" "C9"
+			(at 270.51 63.5 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 270.51 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0402_(1005_Metric)"
+			(at 275.59 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 270.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 278.13 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 270.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 270.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48901469-55fc-4419-81ab-7840d4bda406")
+		)
+		(pin "1"
+			(uuid "98d5bc28-84f5-44b3-b5c0-7e1173853897")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ATLabControlModule:STM32G0B1KEUx")
-		(at 153.67 124.46 0)
+		(at 165.1 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9845,7 +13299,7 @@
 		(dnp no)
 		(uuid "f050998e-c576-4f45-80c6-20cd3461c41d")
 		(property "Reference" "U1"
-			(at 132.08 63.5 0)
+			(at 143.51 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9855,7 +13309,7 @@
 			)
 		)
 		(property "Value" "STM32G0B1KEUx"
-			(at 138.43 144.78 0)
+			(at 149.86 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9865,7 +13319,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm"
-			(at 223.52 160.02 0)
+			(at 234.95 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +13331,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0b1ke.pdf"
-			(at 227.33 154.94 0)
+			(at 238.76 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +13342,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 512KB flash, 144KB RAM, 64 MHz, 1.7-3.6V, 30 GPIO, UFQFPN32"
-			(at 227.33 154.94 0)
+			(at 238.76 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +13353,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 153.67 124.46 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9910,7 +13364,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 153.67 124.46 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9921,7 +13375,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 153.67 124.46 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9932,7 +13386,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 153.67 124.46 0)
+			(at 165.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +13510,7 @@
 	)
 	(symbol
 		(lib_id "ATLabControlModule:C_0805_(2012_Metric)")
-		(at 69.85 77.47 0)
+		(at 58.42 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10066,7 +13520,7 @@
 		(dnp no)
 		(uuid "f07a776b-2eef-4f1a-914c-4e4bf91c2e2c")
 		(property "Reference" "C2"
-			(at 72.39 76.2 0)
+			(at 60.96 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10077,7 +13531,7 @@
 			)
 		)
 		(property "Value" "10µ"
-			(at 72.39 78.74 0)
+			(at 60.96 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10088,7 +13542,7 @@
 			)
 		)
 		(property "Footprint" "ATLabControlModule:C_0805_(2012_Metric)"
-			(at 86.36 82.55 0)
+			(at 74.93 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +13553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 73.66 0)
+			(at 36.83 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +13564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 77.47 0)
+			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10121,7 +13575,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 69.85 77.47 0)
+			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10132,7 +13586,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 78.74 85.09 0)
+			(at 67.31 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10143,7 +13597,7 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 69.85 77.47 0)
+			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10154,7 +13608,7 @@
 			)
 		)
 		(property "Distributor Part Number" ""
-			(at 69.85 77.47 0)
+			(at 58.42 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10174,6 +13628,208 @@
 			(project "ATLabControlModule"
 				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ATLabControlModule:C_0805_(2012_Metric)")
+		(at 120.65 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4614326-b347-4938-a72d-ba8dd27291cc")
+		(property "Reference" "C5"
+			(at 123.19 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10µF"
+			(at 123.19 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ATLabControlModule:C_0805_(2012_Metric)"
+			(at 137.16 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 129.54 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Distributor Part Number" ""
+			(at 120.65 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "43c3a760-180e-45ba-9734-2c8907d3d927")
+		)
+		(pin "1"
+			(uuid "2d758d80-7d95-453c-ab72-746335a21eba")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 121.92 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa041230-64f4-4b80-922c-273f64758616")
+		(property "Reference" "#PWR016"
+			(at 121.92 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 121.92 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 121.92 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d93535d5-0f4f-4fdb-b3ed-ca0f51ec66f0")
+		)
+		(instances
+			(project "ATLabControlModule"
+				(path "/717355f3-544c-4f0f-b3e1-95fade0b1e2b"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
