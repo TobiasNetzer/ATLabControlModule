@@ -9,7 +9,7 @@
 		(at 0 2.7 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "a7bd8e0f-d17b-4a23-a97c-451a68a6b988")
+		(uuid "b4d25a01-f0c4-4dd6-8be7-3c8d66875427")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(at 0 -2.3 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fff02f92-6758-426f-bd39-38d47472b82b")
+		(uuid "4ea24c5d-8e34-483e-826d-bcb2353146bf")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "bd1dcdf0-2e32-4bad-b796-855875441bfd")
+		(uuid "9d3910dd-e25a-41d3-8d91-35a9948b85ee")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "78804a2f-e29b-4d84-ae5b-ef0fa48b23b6")
+		(uuid "11fb679c-60b1-4ac8-8755-e483096a956f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,25 +57,16 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -1.905 1.27)
+	(fp_arc
+		(start -1.27 1.27)
+		(mid -1.719013 1.084013)
 		(end -1.905 0.635)
 		(stroke
-			(width 0.12)
-			(type solid)
+			(width 0.1)
+			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "59f9823b-7924-451e-8503-9b36bd4a148d")
-	)
-	(fp_line
-		(start -1.27 1.27)
-		(end -1.905 1.27)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "940c40b5-2756-4ad2-9c7e-c18e1d132862")
+		(uuid "5ac6ad55-4295-45fc-b6c1-05fbdd097d30")
 	)
 	(fp_line
 		(start -3.5 -2)
@@ -85,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c48c642a-011f-4cd3-a78d-cf0c3face046")
+		(uuid "3c81ba8c-d78a-499c-85c0-65e8692ddfad")
 	)
 	(fp_line
 		(start -3.5 2)
@@ -95,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d7451b80-6d99-45f0-98ce-9128cb296cc3")
+		(uuid "fe3e4fed-15e5-4073-a375-e6886d241299")
 	)
 	(fp_line
 		(start 3.5 -2)
@@ -105,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "75f24314-7ccb-424a-b4dc-e5aaa44a8577")
+		(uuid "bab345d4-7067-40ec-b7ff-ba96b9731eba")
 	)
 	(fp_line
 		(start 3.5 2)
@@ -115,23 +106,78 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f8cc7435-37b0-485d-a88b-86c8e0a9f607")
+		(uuid "35a292c5-bdfb-42d3-bd51-ed7da245e7ff")
 	)
-	(fp_text user "KEEPOUT"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(uuid "010c2df9-a359-4596-a113-b84acb3739e1")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.07)
-			)
+	(fp_circle
+		(center -1.27 -0.635)
+		(end -0.889 -0.635)
+		(stroke
+			(width 0.1)
+			(type default)
 		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "cf83963e-6e36-4c41-ab43-f1f6b474e47a")
+	)
+	(fp_circle
+		(center -1.27 0.635)
+		(end -0.889 0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9b9b364c-f233-462c-a542-d0351445cb90")
+	)
+	(fp_circle
+		(center 0 -0.635)
+		(end 0.381 -0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d99157a-e108-4718-8750-6f1a628f3d84")
+	)
+	(fp_circle
+		(center 0 0.635)
+		(end 0.381 0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bd4c7f1a-7fd4-4245-8373-6129ac11374d")
+	)
+	(fp_circle
+		(center 1.27 -0.635)
+		(end 0.889 -0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "f661b1d8-207f-439b-a254-1c236c50cb37")
+	)
+	(fp_circle
+		(center 1.27 0.635)
+		(end 0.889 0.635)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4f984ef4-039c-4b31-8ce2-b08257020220")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -1.778 0)
 		(layer "F.Fab")
-		(uuid "3f64f32a-032e-4bce-a536-526694f79c86")
+		(uuid "bf23038e-5b7e-4676-abd2-98be22b7a1f1")
 		(effects
 			(font
 				(size 1 1)
@@ -144,87 +190,57 @@
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "68580c08-544f-48c0-bc07-36344e592a2d")
+		(uuid "6646bfb7-1f7b-4ccc-b2f3-91c6a7519a20")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 -1.016)
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "4bb898e7-157a-402f-9f10-d885171b6fb6")
+		(uuid "1a1360d6-1319-46e8-b9d5-d6dd427bd919")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.54 1.016)
 		(size 0.9906 0.9906)
 		(drill 0.9906)
 		(layers "*.Cu" "*.Mask")
-		(uuid "844a483a-289d-4b86-9e22-231e1dd2dadf")
+		(uuid "2fda1a2a-d4fd-419d-bea3-6db23499357a")
 	)
 	(pad "1" connect circle
 		(at -1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "cf9ee219-cced-43f1-bdbb-2a8a8901fe36")
+		(uuid "da0de6dd-5682-4ecd-849e-d0835a6ff75e")
 	)
 	(pad "2" connect circle
 		(at -1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "c72a6366-b003-43a4-930f-b76076217f7a")
+		(uuid "6fd6a0ff-310b-4629-8db0-553f05d43ead")
 	)
 	(pad "3" connect circle
 		(at 0 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "623fe83b-a236-4499-9bd9-fb67166b6adc")
+		(uuid "08e35a24-7bfa-4d45-8b2d-5473278bf399")
 	)
 	(pad "4" connect circle
 		(at 0 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "21681e9f-f3c9-48d1-a4c5-fc199b3a7017")
+		(uuid "cd67e84a-63ec-4645-9caf-637de1ff6f32")
 	)
 	(pad "5" connect circle
 		(at 1.27 0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "e2da2ace-7787-4c17-9a3c-a64599c39646")
+		(uuid "25b7ba36-1311-4557-8edf-ec1ab7eb93be")
 	)
 	(pad "6" connect circle
 		(at 1.27 -0.635)
 		(size 0.7874 0.7874)
 		(layers "F.Cu" "F.Mask")
-		(uuid "1ce60c52-42a3-4f41-a209-382c370aef06")
-	)
-	(zone
-		(layer "F.Cu")
-		(uuid "68ae3041-7031-41c0-bfb5-34e7b52c1626")
-		(hatch full 0.508)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.254)
-		(keepout
-			(tracks allowed)
-			(vias not_allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints not_allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.508)
-			(thermal_bridge_width 0.508)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 1.27 -0.635) (xy -1.27 -0.635) (xy -1.27 0.635) (xy 1.27 0.635)
-			)
-		)
+		(uuid "fcd82942-e8b0-4f86-a37a-23ad48ef617a")
 	)
 	(embedded_fonts no)
 )
