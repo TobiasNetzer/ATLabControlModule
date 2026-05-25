@@ -3227,7 +3227,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +3238,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STM32G0B1KEU6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Digikey"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "497-STM32G0B1KEU6-ND"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

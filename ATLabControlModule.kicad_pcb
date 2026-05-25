@@ -11381,7 +11381,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11395,7 +11395,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11409,10 +11409,72 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "983c6063-5fd3-48d1-aba2-57a846f9ac23")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "SK6812MINI-E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a24edc50-dc25-4889-aa91-081fb9f8a121")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "19c3adf2-b6e7-4d3d-89ea-97a3ed419793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Part Number" " C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a94b7dac-347d-481b-9a8c-45a4c9c56954")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
 		(path "/9d28220f-e4a0-474b-81b4-8a8de53413e6")
 		(sheetname "/")
 		(sheetfile "ATLabControlModule.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -15297,7 +15359,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15311,7 +15373,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "STM32G0B1KEU6"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15325,7 +15387,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor" ""
+		(property "Distributor" "Digikey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15339,7 +15401,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Part Number" ""
+		(property "Distributor Part Number" "497-STM32G0B1KEU6-ND"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17774,7 +17836,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5149201.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17788,7 +17850,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RGB LED with integrated controller"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17802,10 +17864,72 @@
 				(justify mirror)
 			)
 		)
+		(property "Manufacturer" "OPSCO Optoelectronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b84db8ef-0f7c-43b8-bc0c-22896fc244a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" "SK6812MINI-E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d3048de3-e971-4a14-aa48-be2cd55f0cb1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor" "JLCPCB"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "149e5938-e084-4dd0-a3fb-8557c3ee5da3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Part Number" " C5149201"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "98125a47-52de-46d7-a5aa-1b1f3c1741e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED?SK6812MINI?E?3.2x2.8mm?P1.5mm*")
 		(path "/cef93fd0-81f2-440a-9d8d-2fadab4fd8ad")
 		(sheetname "/")
 		(sheetfile "ATLabControlModule.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "3" "1" "4")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -19521,14 +19645,6 @@
 		(uuid "39f8c7eb-ecc5-4be1-baa4-14fa3838a4e3")
 	)
 	(segment
-		(start 157.15 92.85)
-		(end 157.15 91.7)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "3f51f67d-ba5f-4a56-9655-52f6d8bbbf86")
-	)
-	(segment
 		(start 133.15 92.25)
 		(end 133.15 91.7)
 		(width 0.2)
@@ -19553,6 +19669,14 @@
 		(uuid "78159e79-cf5d-475a-9eaa-bbffedc204da")
 	)
 	(segment
+		(start 157.15 92.55)
+		(end 157.15 91.7)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "9961dd88-b840-418c-b2e4-3f15c3f3972c")
+	)
+	(segment
 		(start 141.15 92.45)
 		(end 141.85 93.15)
 		(width 0.2)
@@ -19567,6 +19691,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "a27459f4-ecb4-46e4-b541-b3d14a7a52ea")
+	)
+	(segment
+		(start 157.45 92.85)
+		(end 157.15 92.55)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "a86359b8-2af3-43b2-9e4b-7252910e6322")
 	)
 	(segment
 		(start 140.15 89.75)
@@ -19772,7 +19904,7 @@
 		(uuid "72d08b78-9ada-497e-b27b-b52bc0e8097e")
 	)
 	(via
-		(at 157.15 92.85)
+		(at 157.45 92.85)
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -21465,21 +21597,19 @@
 				(xy 156.293716 90.25) (xy 156.306635 90.250847) (xy 156.416666 90.265329) (xy 156.441623 90.272014)
 				(xy 156.478873 90.287439) (xy 156.538107 90.311967) (xy 156.560482 90.324881) (xy 156.643348 90.388443)
 				(xy 156.661622 90.40671) (xy 156.725214 90.489543) (xy 156.73814 90.511916) (xy 156.778135 90.60839)
-				(xy 156.78483 90.633343) (xy 156.799357 90.74336) (xy 156.800209 90.756279) (xy 156.800943 92.527017)
-				(xy 156.787679 92.576558) (xy 156.730202 92.676109) (xy 156.730201 92.676114) (xy 156.6995 92.790691)
-				(xy 156.6995 92.909309) (xy 156.726574 93.010351) (xy 156.730202 93.02389) (xy 156.787947 93.123906)
-				(xy 156.801211 93.173365) (xy 156.801335 93.47059) (xy 156.801551 93.992611) (xy 156.80071 94.005525)
-				(xy 156.786266 94.115581) (xy 156.779588 94.140545) (xy 156.739654 94.237071) (xy 156.726741 94.259459)
-				(xy 156.663184 94.342358) (xy 156.644917 94.36064) (xy 156.562069 94.424266) (xy 156.539693 94.437197)
-				(xy 156.443207 94.47721) (xy 156.418246 94.48391) (xy 156.362279 94.491301) (xy 156.30819 94.498445)
-				(xy 156.295274 94.499296) (xy 155.550347 94.499605) (xy 155.0998 94.499792) (xy 155.099792 94.499793)
-				(xy 155.006879 94.512061) (xy 154.946714 94.500934) (xy 154.923916 94.483917) (xy 154.919999 94.48)
-				(xy 154.22 94.48) (xy 154.22 93.98) (xy 154.919999 93.98) (xy 154.92 93.979999) (xy 154.92 93.581509)
-				(xy 154.919999 93.581506) (xy 154.88157 93.388311) (xy 154.88157 93.388309) (xy 154.806191 93.206326)
-				(xy 154.806185 93.206314) (xy 154.69675 93.042537) (xy 154.696747 93.042533) (xy 154.557466 92.903252)
-				(xy 154.557462 92.903249) (xy 154.393685 92.793814) (xy 154.393673 92.793808) (xy 154.211691 92.718429)
-				(xy 154.17 92.710136) (xy 154.17 93.513011) (xy 154.16006 93.495795) (xy 154.104205 93.43994) (xy 154.035796 93.400444)
-				(xy 153.959496 93.38) (xy 153.880504 93.38) (xy 153.804204 93.400444) (xy 153.735795 93.43994) (xy 153.67994 93.495795)
+				(xy 156.78483 90.633343) (xy 156.799357 90.74336) (xy 156.800209 90.756279) (xy 156.800746 92.0505)
+				(xy 156.801285 93.35) (xy 156.801551 93.992611) (xy 156.80071 94.005525) (xy 156.786266 94.115581)
+				(xy 156.779588 94.140545) (xy 156.739654 94.237071) (xy 156.726741 94.259459) (xy 156.663184 94.342358)
+				(xy 156.644917 94.36064) (xy 156.562069 94.424266) (xy 156.539693 94.437197) (xy 156.443207 94.47721)
+				(xy 156.418246 94.48391) (xy 156.362279 94.491301) (xy 156.30819 94.498445) (xy 156.295274 94.499296)
+				(xy 155.550347 94.499605) (xy 155.0998 94.499792) (xy 155.099792 94.499793) (xy 155.006879 94.512061)
+				(xy 154.946714 94.500934) (xy 154.923916 94.483917) (xy 154.919999 94.48) (xy 154.22 94.48) (xy 154.22 93.98)
+				(xy 154.919999 93.98) (xy 154.92 93.979999) (xy 154.92 93.581509) (xy 154.919999 93.581506) (xy 154.88157 93.388311)
+				(xy 154.88157 93.388309) (xy 154.806191 93.206326) (xy 154.806185 93.206314) (xy 154.69675 93.042537)
+				(xy 154.696747 93.042533) (xy 154.557466 92.903252) (xy 154.557462 92.903249) (xy 154.393685 92.793814)
+				(xy 154.393673 92.793808) (xy 154.211691 92.718429) (xy 154.17 92.710136) (xy 154.17 93.513011)
+				(xy 154.16006 93.495795) (xy 154.104205 93.43994) (xy 154.035796 93.400444) (xy 153.959496 93.38)
+				(xy 153.880504 93.38) (xy 153.804204 93.400444) (xy 153.735795 93.43994) (xy 153.67994 93.495795)
 				(xy 153.67 93.513011) (xy 153.67 92.710136) (xy 153.628308 92.718429) (xy 153.446326 92.793808)
 				(xy 153.446314 92.793814) (xy 153.282537 92.903249) (xy 153.282533 92.903252) (xy 153.143248 93.042537)
 				(xy 153.08096 93.135758) (xy 153.03291 93.173637) (xy 152.971772 93.176039) (xy 152.956026 93.169396)
